@@ -234,6 +234,47 @@ function formatCurrency(value, currency = "EUR") {
   }).format(Number(value));
 }
 
+function humanizeValueSource(value) {
+  const labels = {
+    award: "Aggiudicato",
+    estimated: "Stimato",
+    "estimated-group": "Stimato gruppo",
+    "estimated-part": "Stimato lotto",
+    "estimated-lots": "Stimato lotti",
+    "estimated-lots-largest": "Stimato lotto principale",
+    framework: "Accordo quadro",
+    "framework-award": "Accordo quadro aggiudicato",
+    "framework-maximum": "Massimo accordo quadro",
+    "framework-maximum-lots": "Massimo accordo quadro",
+    "framework-maximum-lots-largest": "Massimo lotto accordo quadro",
+    tender: "Offerta",
+    "tender-largest": "Offerta principale",
+    total: "Totale",
+  };
+
+  return labels[value] || "";
+}
+
+function formatNoticeValue(notice) {
+  return formatCurrency(notice.estimatedValue, notice.currency || "EUR");
+}
+
+function formatValueSubtitle(notice) {
+  const parts = [humanizeValueSource(notice.valueSource), notice.currency].filter(Boolean);
+  return parts.length > 0 ? parts.join(" · ") : "n.d.";
+}
+
+function formatDetailValue(notice) {
+  const value = formatNoticeValue(notice);
+  const source = humanizeValueSource(notice.valueSource);
+
+  if (value === "n.d." || !source) {
+    return value;
+  }
+
+  return `${value} · ${source}`;
+}
+
 function humanizeNature(value) {
   if (value === "works") {
     return "Lavori";
@@ -417,6 +458,7 @@ function buildMapMarkers(notices) {
     markers.push({
       buyer: notice.buyer,
       coordinatesSource: notice.coordinates.source,
+      currency: notice.currency,
       deadlineDate: notice.deadlineDate,
       deadlineKind: notice.deadlineKind,
       estimatedValue: notice.estimatedValue,
@@ -428,6 +470,7 @@ function buildMapMarkers(notices) {
       publicationDate: notice.publicationDate,
       status: notice.status,
       title: notice.title,
+      valueSource: notice.valueSource,
     });
   });
 
@@ -469,6 +512,16 @@ function filterNotices(notices) {
   });
 }
 
+function buildExcelNumberCell(value) {
+  const numericValue = Number(value);
+
+  if (!Number.isFinite(numericValue)) {
+    return '<Cell><Data ss:Type="String"></Data></Cell>';
+  }
+
+  return `<Cell><Data ss:Type="Number">${numericValue}</Data></Cell>`;
+}
+
 function buildWorkbookXml(notices) {
   const rows = notices
     .map((notice) => `
@@ -479,8 +532,9 @@ function buildWorkbookXml(notices) {
         <Cell><Data ss:Type="String">${escapeXml(notice.countryName || "")}</Data></Cell>
         <Cell><Data ss:Type="String">${escapeXml(notice.city || "")}</Data></Cell>
         <Cell><Data ss:Type="String">${escapeXml(notice.status)}</Data></Cell>
-        <Cell><Data ss:Type="Number">${Number(notice.estimatedValue || 0)}</Data></Cell>
-        <Cell><Data ss:Type="String">${escapeXml(notice.currency || "EUR")}</Data></Cell>
+        ${buildExcelNumberCell(notice.estimatedValue)}
+        <Cell><Data ss:Type="String">${escapeXml(notice.currency || "")}</Data></Cell>
+        <Cell><Data ss:Type="String">${escapeXml(notice.valueSource || "")}</Data></Cell>
         <Cell><Data ss:Type="String">${escapeXml(notice.deadlineDate || "")}</Data></Cell>
         <Cell><Data ss:Type="String">${escapeXml(notice.deadlineKind || "")}</Data></Cell>
         <Cell><Data ss:Type="String">${escapeXml(notice.publicationDate || "")}</Data></Cell>
@@ -511,6 +565,7 @@ function buildWorkbookXml(notices) {
           <Cell><Data ss:Type="String">Stato</Data></Cell>
           <Cell><Data ss:Type="String">Valore</Data></Cell>
           <Cell><Data ss:Type="String">Valuta</Data></Cell>
+          <Cell><Data ss:Type="String">Fonte valore</Data></Cell>
           <Cell><Data ss:Type="String">Scadenza</Data></Cell>
           <Cell><Data ss:Type="String">Tipo scadenza</Data></Cell>
           <Cell><Data ss:Type="String">Pubblicazione</Data></Cell>
@@ -768,7 +823,7 @@ function renderDetail() {
   refs.detailDeadline.textContent = notice.deadlineDate
     ? `${formatDeadline(notice.deadlineDate)}${notice.deadlineKind ? ` · ${notice.deadlineKind}` : ""}`
     : "n.d.";
-  refs.detailValue.textContent = formatCurrency(notice.estimatedValue, notice.currency);
+  refs.detailValue.textContent = formatDetailValue(notice);
   refs.detailNature.textContent = humanizeNature(notice.contractNature);
   refs.detailProcedure.textContent = humanizeProcedure(notice.procedureType);
   refs.detailCoords.textContent = `${notice.coordinates.lat.toFixed(3)}, ${notice.coordinates.lng.toFixed(3)} (${notice.coordinates.source})`;
@@ -812,8 +867,8 @@ function renderTable() {
         </td>
         <td>
           <div class="cell-stack">
-            <span class="row-title">${escapeHtml(formatCurrency(notice.estimatedValue, notice.currency))}</span>
-            <span class="row-subtitle">${escapeHtml(notice.currency || "EUR")}</span>
+            <span class="row-title">${escapeHtml(formatNoticeValue(notice))}</span>
+            <span class="row-subtitle">${escapeHtml(formatValueSubtitle(notice))}</span>
           </div>
         </td>
         <td>

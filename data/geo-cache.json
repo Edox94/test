@@ -798,5 +798,245 @@
     "lat": 46.2513776,
     "lng": 7.0123881,
     "source": "city"
+  },
+  "orkland|NOR": {
+    "lat": 63.2812718,
+    "lng": 9.663568,
+    "source": "city"
+  },
+  "dobre miasto|POL": {
+    "lat": 53.9868899,
+    "lng": 20.3973402,
+    "source": "city"
+  },
+  "gliwice|POL": {
+    "lat": 50.294113,
+    "lng": 18.6657306,
+    "source": "city"
+  },
+  "wien|AUT": {
+    "lat": 48.2083537,
+    "lng": 16.3725042,
+    "source": "city"
+  },
+  "freguesia de miranda|PRT": {
+    "lat": 41.8380165,
+    "lng": -8.5084299,
+    "source": "city"
+  },
+  "berlin charlottenburg-wilmersdorf|DEU": {
+    "lat": 52.503379,
+    "lng": 13.3386522,
+    "source": "city"
+  },
+  "renens|CHE": {
+    "lat": 46.5349093,
+    "lng": 6.5928442,
+    "source": "city"
+  },
+  "leipzig|DEU": {
+    "lat": 51.3406321,
+    "lng": 12.3747329,
+    "source": "city"
+  },
+  "görlitz|DEU": {
+    "lat": 51.1563185,
+    "lng": 14.991018,
+    "source": "city"
+  },
+  "hechingen|DEU": {
+    "lat": 48.3525529,
+    "lng": 8.9642047,
+    "source": "city"
+  },
+  "гр.сливен|BGR": {
+    "lat": 43.2060802,
+    "lng": 27.9266358,
+    "source": "city"
+  },
+  "zweibrücken|DEU": {
+    "lat": 49.248655,
+    "lng": 7.3641981,
+    "source": "city"
+  },
+  "maurepas|FRA": {
+    "lat": 49.9905624,
+    "lng": 2.8478956,
+    "source": "city"
+  },
+  "oelsnitz/e.|DEU": {
+    "lat": 50.7224008,
+    "lng": 12.6989062,
+    "source": "city"
+  },
+  "αθήνα|GRC": {
+    "lat": 37.9755648,
+    "lng": 23.7348324,
+    "source": "city"
+  },
+  "szeged|HUN": {
+    "lat": 46.2546312,
+    "lng": 20.1486016,
+    "source": "city"
+  },
+  "sundern|DEU": {
+    "lat": 51.329832,
+    "lng": 8.0072645,
+    "source": "city"
+  },
+  "porto|PRT": {
+    "lat": 41.1502195,
+    "lng": -8.6103497,
+    "source": "city"
+  },
+  "vaasa|FIN": {
+    "lat": 63.0957722,
+    "lng": 21.6159187,
+    "source": "city"
+  },
+  "cognac|FRA": {
+    "lat": 45.6931647,
+    "lng": -0.3250175,
+    "source": "city"
+  },
+  "landshut|DEU": {
+    "lat": 48.536217,
+    "lng": 12.1516551,
+    "source": "city"
+  },
+  "kassel|DEU": {
+    "lat": 51.3157833,
+    "lng": 9.4978479,
+    "source": "city"
+  },
+  "göttingen|DEU": {
+    "lat": 51.5328328,
+    "lng": 9.9351811,
+    "source": "city"
+  },
+  "eberswalde|DEU": {
+    "lat": 52.8350807,
+    "lng": 13.7996542,
+    "source": "city"
+  },
+  "zakroczym|POL": {
+    "lat": 52.4333534,
+    "lng": 20.6116771,
+    "source": "city"
+  },
+  "гр. софия|BGR": {
+    "lat": 42.6792938,
+    "lng": 23.3011089,
+    "source": "city"
+  },
+  "gengenbach, leutkirchstraße 32|DEU": {
+    "lat": 51.1657,
+    "lng": 10.4515,
+    "source": "country"
+  },
+  "cournon d'auvergne|FRA": {
+    "lat": 45.7392306,
+    "lng": 3.1962804,
+    "source": "city"
+  },
+  "αθηνα|GRC": {
+    "lat": 37.9755648,
+    "lng": 23.7348324,
+    "source": "city"
+  },
+  "ötigheim|DEU": {
+    "lat": 48.8894679,
+    "lng": 8.2383062,
+    "source": "city"
+  },
+  "morges|CHE": {
+    "lat": 46.5093268,
+    "lng": 6.498317,
+    "source": "city"
+  },
+  "ville de fort-de-france|FRA": {
+    "lat": 46.2276,
+    "lng": 2.2137,
+    "source": "country"
+  },
+  "frankfurt am main|DEU": {
+    "lat": 50.1106444,
+    "lng": 8.6820917,
+    "source": "city"
+  },
+  "ternat|BEL": {
+    "lat": 50.8713392,
+    "lng": 4.1756966,
+    "source": "city"
+  },
+  "caudebec-lès-elbeuf|FRA": {
+    "lat": 49.2814,
+    "lng": 1.02611,
+    "source": "city"
+  },
+  "riedlingen|DEU": {
+    "lat": 48.1534412,
+    "lng": 9.4748796,
+    "source": "city"
+  },
+  "stadt falkenstein/harz (ot ermsleben)|DEU": {
+    "lat": 51.1657,
+    "lng": 10.4515,
+    "source": "country"
+  },
+  "innsbruck|AUT": {
+    "lat": 47.2654296,
+    "lng": 11.3927685,
+    "source": "city"
+  },
+  "saran|FRA": {
+    "lat": 47.9514553,
+    "lng": 1.8749906,
+    "source": "city"
+  },
+  "venaria reale|ITA": {
+    "lat": 45.1348114,
+    "lng": 7.6268658,
+    "source": "city"
+  },
+  "portugal|PRT": {
+    "lat": 39.6621648,
+    "lng": -8.1353519,
+    "source": "city"
+  },
+  "lemgo|DEU": {
+    "lat": 52.0280674,
+    "lng": 8.9012894,
+    "source": "city"
+  },
+  "търговище|BGR": {
+    "lat": 43.2530111,
+    "lng": 26.4141884,
+    "source": "city"
+  },
+  "klaipėda|LTU": {
+    "lat": 55.7127529,
+    "lng": 21.1350469,
+    "source": "city"
+  },
+  "хасково|BGR": {
+    "lat": 41.763101,
+    "lng": 25.9256255,
+    "source": "city"
+  },
+  "cayenne|FRA": {
+    "lat": 4.9371544,
+    "lng": -52.3258736,
+    "source": "city"
+  },
+  "berlin- johannisthal|DEU": {
+    "lat": 52.4469899,
+    "lng": 13.5235435,
+    "source": "city"
+  },
+  "zusmarshausen|DEU": {
+    "lat": 48.3996568,
+    "lng": 10.5964024,
+    "source": "city"
   }
 }

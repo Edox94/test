@@ -1,8 +1,10 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
 const {
+  ARCHIVE_SCHEMA_VERSION,
   getSyncStatusPayload,
   runScheduledSync,
+  syncDate,
 } = require("../server.js");
 
 const ROOT = path.join(__dirname, "..");
@@ -21,6 +23,24 @@ async function listDailyFiles() {
     .filter((entry) => entry.isFile() && /^\d{4}-\d{2}-\d{2}\.json$/.test(entry.name))
     .map((entry) => entry.name)
     .sort();
+}
+
+async function rebuildOutdatedArchives(files) {
+  for (const fileName of files) {
+    const archive = await readJson(path.join(DAILY_DIR, fileName));
+    const schemaVersion = Number(archive.meta?.schemaVersion || 0);
+
+    if (schemaVersion >= ARCHIVE_SCHEMA_VERSION) {
+      continue;
+    }
+
+    const dateKey = fileName.replace(/\.json$/, "");
+    await syncDate(dateKey, {
+      force: true,
+      reason: "static-schema-upgrade",
+      syncMode: archive.meta?.syncMode || "snapshot",
+    });
+  }
 }
 
 function countStatuses(notices) {
@@ -50,6 +70,8 @@ async function buildStaticDataset() {
   if (files.length === 0) {
     throw new Error("Nessun archivio giornaliero disponibile da pubblicare.");
   }
+
+  await rebuildOutdatedArchives(files);
 
   const archives = await Promise.all(
     files.map(async (fileName) => {

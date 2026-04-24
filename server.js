@@ -19,11 +19,13 @@ const GEO_BATCH_LIMIT = Number(process.env.GEO_BATCH_LIMIT || 8);
 const GEO_CONCURRENCY = Number(process.env.GEO_CONCURRENCY || 2);
 const FETCH_TIMEOUT_MS = Number(process.env.FETCH_TIMEOUT_MS || 20000);
 const GEO_TIMEOUT_MS = Number(process.env.GEO_TIMEOUT_MS || 4500);
-const FETCH_PAGE_LIMIT = 250;
+const FETCH_PAGE_LIMIT = Number(process.env.FETCH_PAGE_LIMIT || 200);
+const FETCH_PAGE_DELAY_MS = Number(process.env.FETCH_PAGE_DELAY_MS || 1000);
+const FETCH_MAX_RETRIES = Number(process.env.FETCH_MAX_RETRIES || 4);
 const MAX_MAP_MARKERS = Number(process.env.MAX_MAP_MARKERS || 15000);
 const DEFAULT_PAGE_SIZE = 25;
 const MAX_PAGE_SIZE = 100;
-const ARCHIVE_SCHEMA_VERSION = 2;
+const ARCHIVE_SCHEMA_VERSION = 3;
 
 const TED_SEARCH_ENDPOINT = "https://api.ted.europa.eu/v3/notices/search";
 const TED_FIELDS = [
@@ -42,6 +44,28 @@ const TED_FIELDS = [
   "deadline-receipt-tender-time-lot",
   "estimated-value-lot",
   "estimated-value-cur-lot",
+  "estimated-value-proc",
+  "estimated-value-cur-proc",
+  "estimated-value-glo",
+  "estimated-value-cur-glo",
+  "estimated-value-part",
+  "estimated-value-cur-part",
+  "total-value",
+  "total-value-cur",
+  "result-value-notice",
+  "result-value-cur-notice",
+  "result-value-lot",
+  "result-value-cur-lot",
+  "tender-value",
+  "tender-value-cur",
+  "framework-maximum-value-lot",
+  "framework-maximum-value-cur-lot",
+  "framework-maximum-value-glo",
+  "framework-maximum-value-cur-glo",
+  "framework-value-notice",
+  "framework-value-cur-notice",
+  "result-framework-maximum-value-notice",
+  "result-framework-maximum-value-cur-notice",
   "procedure-type",
   "notice-type",
   "contract-nature",
@@ -159,6 +183,12 @@ function formatTedDateFromKey(dateKey) {
   return dateKey.replaceAll("-", "");
 }
 
+function sleep(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+}
+
 function parseTedDate(value) {
   if (!value) {
     return null;
@@ -209,9 +239,136 @@ function firstValue(value) {
   return value ?? null;
 }
 
+function valuesAsArray(value) {
+  if (Array.isArray(value)) {
+    return value;
+  }
+
+  if (value === null || value === undefined) {
+    return [];
+  }
+
+  return [value];
+}
+
 function parseNumericValue(value) {
-  const parsed = Number(firstValue(value));
+  if (typeof value === "number") {
+    return Number.isFinite(value) ? value : null;
+  }
+
+  const normalized = String(value ?? "")
+    .trim()
+    .replace(/\s+/g, "")
+    .replace(/,(?=\d+$)/, ".");
+  const parsed = Number(normalized);
   return Number.isFinite(parsed) ? parsed : null;
+}
+
+function positiveAmountEntries(amountValue, currencyValue) {
+  const amounts = valuesAsArray(amountValue);
+  const currencies = valuesAsArray(currencyValue).map((currency) => String(currency || "").trim()).filter(Boolean);
+
+  return amounts
+    .map((amount, index) => {
+      const parsed = parseNumericValue(amount);
+
+      if (!parsed || parsed <= 0) {
+        return null;
+      }
+
+      return {
+        amount: parsed,
+        currency: currencies[index] || currencies[0] || null,
+      };
+    })
+    .filter(Boolean);
+}
+
+function aggregateAmount(rawNotice, candidate) {
+  const entries = positiveAmountEntries(rawNotice[candidate.valueField], rawNotice[candidate.currencyField]);
+
+  if (entries.length === 0) {
+    return null;
+  }
+
+  const currencies = [...new Set(entries.map((entry) => entry.currency).filter(Boolean))];
+
+  if (entries.length === 1 || candidate.mode !== "sum") {
+    return {
+      estimatedValue: entries[0].amount,
+      currency: entries[0].currency || "EUR",
+      valueSource: candidate.source,
+    };
+  }
+
+  if (currencies.length <= 1) {
+    return {
+      estimatedValue: entries.reduce((total, entry) => total + entry.amount, 0),
+      currency: currencies[0] || "EUR",
+      valueSource: candidate.source,
+    };
+  }
+
+  const largestEntry = entries.slice().sort((left, right) => right.amount - left.amount)[0];
+  return {
+    estimatedValue: largestEntry.amount,
+    currency: largestEntry.currency || "EUR",
+    valueSource: `${candidate.source}-largest`,
+  };
+}
+
+function isAwardNoticeType(noticeType) {
+  return typeof noticeType === "string" && (noticeType.startsWith("can") || noticeType === "veat");
+}
+
+function extractFinancialValue(rawNotice, noticeType) {
+  const awardCandidates = [
+    { valueField: "result-value-notice", currencyField: "result-value-cur-notice", source: "award" },
+    { valueField: "total-value", currencyField: "total-value-cur", source: "total" },
+    { valueField: "tender-value", currencyField: "tender-value-cur", source: "tender", mode: "sum" },
+    {
+      valueField: "result-framework-maximum-value-notice",
+      currencyField: "result-framework-maximum-value-cur-notice",
+      source: "framework-award",
+    },
+    { valueField: "framework-value-notice", currencyField: "framework-value-cur-notice", source: "framework" },
+    { valueField: "estimated-value-proc", currencyField: "estimated-value-cur-proc", source: "estimated" },
+    { valueField: "estimated-value-lot", currencyField: "estimated-value-cur-lot", source: "estimated-lots", mode: "sum" },
+  ];
+  const estimateCandidates = [
+    { valueField: "estimated-value-proc", currencyField: "estimated-value-cur-proc", source: "estimated" },
+    { valueField: "total-value", currencyField: "total-value-cur", source: "total" },
+    { valueField: "estimated-value-glo", currencyField: "estimated-value-cur-glo", source: "estimated-group" },
+    { valueField: "estimated-value-part", currencyField: "estimated-value-cur-part", source: "estimated-part" },
+    { valueField: "estimated-value-lot", currencyField: "estimated-value-cur-lot", source: "estimated-lots", mode: "sum" },
+    {
+      valueField: "framework-maximum-value-glo",
+      currencyField: "framework-maximum-value-cur-glo",
+      source: "framework-maximum",
+    },
+    {
+      valueField: "framework-maximum-value-lot",
+      currencyField: "framework-maximum-value-cur-lot",
+      source: "framework-maximum-lots",
+      mode: "sum",
+    },
+    { valueField: "framework-value-notice", currencyField: "framework-value-cur-notice", source: "framework" },
+  ];
+  const candidates = isAwardNoticeType(noticeType) ? awardCandidates : estimateCandidates;
+
+  for (const candidate of candidates) {
+    const value = aggregateAmount(rawNotice, candidate);
+
+    if (value) {
+      return value;
+    }
+  }
+
+  return {
+    estimatedValue: null,
+    currency: null,
+    valueSource: null,
+  };
 }
 
 function pickLocalizedText(value) {
@@ -361,7 +518,7 @@ function extractDeadlineInfo(rawNotice) {
 }
 
 function inferStatus(noticeType, deadlineDate) {
-  if (typeof noticeType === "string" && noticeType.startsWith("can")) {
+  if (isAwardNoticeType(noticeType)) {
     return "Aggiudicato";
   }
 
@@ -419,6 +576,16 @@ function dominantStatus(statusCounts) {
   return entries.sort((left, right) => right[1] - left[1])[0][0];
 }
 
+function buildExcelNumberCell(value) {
+  const numericValue = Number(value);
+
+  if (!Number.isFinite(numericValue)) {
+    return '<Cell><Data ss:Type="String"></Data></Cell>';
+  }
+
+  return `<Cell><Data ss:Type="Number">${numericValue}</Data></Cell>`;
+}
+
 function buildWorkbookXml(notices) {
   const rows = notices
     .map((notice) => `
@@ -429,8 +596,9 @@ function buildWorkbookXml(notices) {
         <Cell><Data ss:Type="String">${escapeXml(notice.countryName || "")}</Data></Cell>
         <Cell><Data ss:Type="String">${escapeXml(notice.city || "")}</Data></Cell>
         <Cell><Data ss:Type="String">${escapeXml(notice.status)}</Data></Cell>
-        <Cell><Data ss:Type="Number">${Number(notice.estimatedValue || 0)}</Data></Cell>
-        <Cell><Data ss:Type="String">${escapeXml(notice.currency || "EUR")}</Data></Cell>
+        ${buildExcelNumberCell(notice.estimatedValue)}
+        <Cell><Data ss:Type="String">${escapeXml(notice.currency || "")}</Data></Cell>
+        <Cell><Data ss:Type="String">${escapeXml(notice.valueSource || "")}</Data></Cell>
         <Cell><Data ss:Type="String">${escapeXml(notice.deadlineDate || "")}</Data></Cell>
         <Cell><Data ss:Type="String">${escapeXml(notice.deadlineKind || "")}</Data></Cell>
         <Cell><Data ss:Type="String">${escapeXml(notice.publicationDate || "")}</Data></Cell>
@@ -461,6 +629,7 @@ function buildWorkbookXml(notices) {
           <Cell><Data ss:Type="String">Stato</Data></Cell>
           <Cell><Data ss:Type="String">Valore</Data></Cell>
           <Cell><Data ss:Type="String">Valuta</Data></Cell>
+          <Cell><Data ss:Type="String">Fonte valore</Data></Cell>
           <Cell><Data ss:Type="String">Scadenza</Data></Cell>
           <Cell><Data ss:Type="String">Tipo scadenza</Data></Cell>
           <Cell><Data ss:Type="String">Pubblicazione</Data></Cell>
@@ -790,6 +959,7 @@ function normalizeNotice(rawNotice) {
   const coordinates = resolveCoordinates(rawNotice);
   const locationLabel = getLocationLabelFromParts(city, countryName);
   const mapKey = buildMapKeyFromCoordinates(coordinates, city, countryCode);
+  const financialValue = extractFinancialValue(rawNotice, noticeType);
 
   return {
     id: rawNotice["publication-number"],
@@ -797,8 +967,9 @@ function normalizeNotice(rawNotice) {
     buyer: pickLocalizedText(rawNotice["buyer-name"]) || "Buyer non disponibile",
     publicationDate: rawNotice["publication-date"] || null,
     deadlineDate,
-    estimatedValue: parseNumericValue(rawNotice["estimated-value-lot"]),
-    currency: firstValue(rawNotice["estimated-value-cur-lot"]) || "EUR",
+    estimatedValue: financialValue.estimatedValue,
+    currency: financialValue.currency,
+    valueSource: financialValue.valueSource,
     procedureType: rawNotice["procedure-type"] || null,
     noticeType,
     contractNature: firstValue(rawNotice["contract-nature"]) || null,
@@ -827,22 +998,37 @@ async function fetchTedPage(dateKey, page) {
     query: `publication-date>=${formatTedDateFromKey(dateKey)} AND publication-date<=${formatTedDateFromKey(dateKey)}`,
   };
 
-  const response = await fetch(TED_SEARCH_ENDPOINT, {
-    method: "POST",
-    headers: {
-      Accept: "application/json",
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(body),
-    signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
-  });
+  for (let attempt = 0; attempt <= FETCH_MAX_RETRIES; attempt += 1) {
+    const response = await fetch(TED_SEARCH_ENDPOINT, {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(body),
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+    });
 
-  if (!response.ok) {
+    if (response.ok) {
+      return response.json();
+    }
+
     const errorBody = await response.text();
+    const shouldRetry = response.status === 429 || response.status >= 500;
+
+    if (shouldRetry && attempt < FETCH_MAX_RETRIES) {
+      const retryAfterHeader = Number(response.headers.get("retry-after"));
+      const retryAfterMs = Number.isFinite(retryAfterHeader)
+        ? retryAfterHeader * 1000
+        : FETCH_PAGE_DELAY_MS * (attempt + 2);
+      await sleep(retryAfterMs);
+      continue;
+    }
+
     throw new Error(`TED API ${response.status}: ${errorBody.slice(0, 180)}`);
   }
 
-  return response.json();
+  throw new Error("TED API: numero massimo di retry superato.");
 }
 
 async function fetchTedDayArchive(dateKey, syncMode) {
@@ -852,6 +1038,7 @@ async function fetchTedDayArchive(dateKey, syncMode) {
   const rawNotices = [...(firstPage.notices || [])];
 
   for (let page = 2; page <= totalPages; page += 1) {
+    await sleep(FETCH_PAGE_DELAY_MS);
     const payload = await fetchTedPage(dateKey, page);
     rawNotices.push(...(payload.notices || []));
   }
@@ -1234,6 +1421,7 @@ function buildMapMarkers(notices) {
     markers.push({
       buyer: notice.buyer,
       coordinatesSource: notice.coordinates.source,
+      currency: notice.currency,
       deadlineDate: notice.deadlineDate,
       deadlineKind: notice.deadlineKind,
       estimatedValue: notice.estimatedValue,
@@ -1245,6 +1433,7 @@ function buildMapMarkers(notices) {
       publicationDate: notice.publicationDate,
       status: notice.status,
       title: notice.title,
+      valueSource: notice.valueSource,
     });
   }
 
@@ -1476,6 +1665,7 @@ if (require.main === module) {
 }
 
 module.exports = {
+  ARCHIVE_SCHEMA_VERSION,
   bootstrap,
   buildNoticeDataset,
   fetchTedDayArchive,

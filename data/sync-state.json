@@ -1,44 +1,44 @@
 {
   "version": 1,
   "lastError": null,
-  "lastRunAt": "2026-04-24T16:44:57.008Z",
+  "lastRunAt": "2026-04-24T17:08:28.496Z",
   "lastRunSummary": {
-    "dateKey": "2026-04-24",
-    "noticeCount": 3647,
-    "reason": "scheduled-snapshot",
-    "syncMode": "snapshot",
-    "totalMatches": 3647
+    "dateKey": "2026-04-22",
+    "noticeCount": 3728,
+    "reason": "static-schema-upgrade",
+    "syncMode": "complete",
+    "totalMatches": 3728
   },
   "lastSuccessfulSyncDate": "2026-04-24",
   "nextScheduledRunAt": null,
   "days": {
     "2026-04-21": {
       "noticeCount": 3466,
-      "schemaVersion": 2,
+      "schemaVersion": 3,
       "syncMode": "complete",
       "totalMatches": 3466,
-      "updatedAt": "2026-04-22T19:55:05.164Z"
+      "updatedAt": "2026-04-24T17:07:41.203Z"
     },
     "2026-04-22": {
       "noticeCount": 3728,
-      "schemaVersion": 2,
+      "schemaVersion": 3,
       "syncMode": "complete",
       "totalMatches": 3728,
-      "updatedAt": "2026-04-24T11:17:34.066Z"
+      "updatedAt": "2026-04-24T17:08:28.465Z"
     },
     "2026-04-23": {
       "noticeCount": 3720,
-      "schemaVersion": 2,
+      "schemaVersion": 3,
       "syncMode": "complete",
       "totalMatches": 3720,
-      "updatedAt": "2026-04-24T16:44:47.151Z"
+      "updatedAt": "2026-04-24T17:06:07.914Z"
     },
     "2026-04-24": {
       "noticeCount": 3647,
-      "schemaVersion": 2,
+      "schemaVersion": 3,
       "syncMode": "snapshot",
       "totalMatches": 3647,
-      "updatedAt": "2026-04-24T16:44:56.978Z"
+      "updatedAt": "2026-04-24T17:06:55.768Z"
     }
   }
 }
