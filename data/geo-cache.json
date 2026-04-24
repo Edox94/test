@@ -1038,5 +1038,85 @@
     "lat": 48.3996568,
     "lng": 10.5964024,
     "source": "city"
+  },
+  "karlsfeld|DEU": {
+    "lat": 48.2266316,
+    "lng": 11.4676387,
+    "source": "city"
+  },
+  "gouvieux|FRA": {
+    "lat": 49.1902,
+    "lng": 2.41521,
+    "source": "city"
+  },
+  "mezőladány|HUN": {
+    "lat": 48.274162,
+    "lng": 22.2228824,
+    "source": "city"
+  },
+  "nijmegen|NLD": {
+    "lat": 51.8425749,
+    "lng": 5.8389606,
+    "source": "city"
+  },
+  "nijverdal|NLD": {
+    "lat": 52.3592015,
+    "lng": 6.4654075,
+    "source": "city"
+  },
+  "icking|DEU": {
+    "lat": 47.9515105,
+    "lng": 11.4320346,
+    "source": "city"
+  },
+  "waldkraiburg|DEU": {
+    "lat": 48.2061851,
+    "lng": 12.4021839,
+    "source": "city"
+  },
+  "miskolc|HUN": {
+    "lat": 48.1030643,
+    "lng": 20.7900429,
+    "source": "city"
+  },
+  "kielce|POL": {
+    "lat": 50.8540285,
+    "lng": 20.6099157,
+    "source": "city"
+  },
+  "раднево|BGR": {
+    "lat": 42.2890477,
+    "lng": 25.9338724,
+    "source": "city"
+  },
+  "brzesko|POL": {
+    "lat": 49.9678396,
+    "lng": 20.6068496,
+    "source": "city"
+  },
+  "rhône|FRA": {
+    "lat": 45.8802348,
+    "lng": 4.5645336,
+    "source": "city"
+  },
+  "kemi|FIN": {
+    "lat": 65.7333404,
+    "lng": 24.5666495,
+    "source": "city"
+  },
+  "gradignan|FRA": {
+    "lat": 44.7739701,
+    "lng": -0.613907,
+    "source": "city"
+  },
+  "zona nascente|PRT": {
+    "lat": 40.8699744,
+    "lng": -8.4778519,
+    "source": "city"
+  },
+  "åkersberga|SWE": {
+    "lat": 59.4823516,
+    "lng": 18.2943981,
+    "source": "city"
   }
 }
