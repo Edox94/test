@@ -1,7 +1,7 @@
 {
   "version": 1,
   "lastError": null,
-  "lastRunAt": "2026-04-24T16:32:58.723Z",
+  "lastRunAt": "2026-04-24T16:44:57.008Z",
   "lastRunSummary": {
     "dateKey": "2026-04-24",
     "noticeCount": 3647,
@@ -31,14 +31,14 @@
       "schemaVersion": 2,
       "syncMode": "complete",
       "totalMatches": 3720,
-      "updatedAt": "2026-04-24T16:32:36.633Z"
+      "updatedAt": "2026-04-24T16:44:47.151Z"
     },
     "2026-04-24": {
       "noticeCount": 3647,
       "schemaVersion": 2,
       "syncMode": "snapshot",
       "totalMatches": 3647,
-      "updatedAt": "2026-04-24T16:32:58.678Z"
+      "updatedAt": "2026-04-24T16:44:56.978Z"
     }
   }
 }

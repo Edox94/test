@@ -718,5 +718,85 @@
     "lat": 52.4006632,
     "lng": 16.9197326,
     "source": "city"
+  },
+  "diepenbeek|BEL": {
+    "lat": 50.9124826,
+    "lng": 5.4192856,
+    "source": "city"
+  },
+  "schopfheim|DEU": {
+    "lat": 47.6500525,
+    "lng": 7.8216997,
+    "source": "city"
+  },
+  "cannes la bocca|FRA": {
+    "lat": 43.548847,
+    "lng": 6.9865913,
+    "source": "city"
+  },
+  "sede sociale via vittorio locchi, 19  trieste (ts)|ITA": {
+    "lat": 41.8719,
+    "lng": 12.5674,
+    "source": "country"
+  },
+  "freising|DEU": {
+    "lat": 48.4008273,
+    "lng": 11.7439565,
+    "source": "city"
+  },
+  "udine|ITA": {
+    "lat": 46.0634632,
+    "lng": 13.2358377,
+    "source": "city"
+  },
+  "chambéry|FRA": {
+    "lat": 45.5662672,
+    "lng": 5.9203636,
+    "source": "city"
+  },
+  "tarnów|POL": {
+    "lat": 50.0123784,
+    "lng": 20.9880739,
+    "source": "city"
+  },
+  "białystok|POL": {
+    "lat": 53.1275051,
+    "lng": 23.1470509,
+    "source": "city"
+  },
+  "st. pölten|AUT": {
+    "lat": 48.2043985,
+    "lng": 15.6229118,
+    "source": "city"
+  },
+  "vimercate|ITA": {
+    "lat": 45.6139627,
+    "lng": 9.37006,
+    "source": "city"
+  },
+  "multisites|FRA": {
+    "lat": 48.0118361,
+    "lng": 0.1821247,
+    "source": "city"
+  },
+  "barcelona|ESP": {
+    "lat": 41.3825802,
+    "lng": 2.177073,
+    "source": "city"
+  },
+  "mezőcsát|HUN": {
+    "lat": 47.8175357,
+    "lng": 20.903168,
+    "source": "city"
+  },
+  "karkkila|FIN": {
+    "lat": 60.5354141,
+    "lng": 24.2125223,
+    "source": "city"
+  },
+  "bex|CHE": {
+    "lat": 46.2513776,
+    "lng": 7.0123881,
+    "source": "city"
   }
 }
