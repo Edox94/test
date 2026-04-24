@@ -1,0 +1,642 @@
+{
+  "siemianowice śląskie|POL": {
+    "lat": 51.9194,
+    "lng": 19.1451,
+    "source": "country"
+  },
+  "braga|PRT": {
+    "lat": 39.3999,
+    "lng": -8.2245,
+    "source": "country"
+  },
+  "napoli|ITA": {
+    "lat": 41.8719,
+    "lng": 12.5674,
+    "source": "country"
+  },
+  "aizkraukle|LVA": {
+    "lat": 56.8796,
+    "lng": 24.6032,
+    "source": "country"
+  },
+  "siegen|DEU": {
+    "lat": 51.1657,
+    "lng": 10.4515,
+    "source": "country"
+  },
+  "bydgoszcz|POL": {
+    "lat": 51.9194,
+    "lng": 19.1451,
+    "source": "country"
+  },
+  "ventspils|LVA": {
+    "lat": 56.8796,
+    "lng": 24.6032,
+    "source": "country"
+  },
+  "łódź|POL": {
+    "lat": 51.9194,
+    "lng": 19.1451,
+    "source": "country"
+  },
+  "bad tölz|DEU": {
+    "lat": 51.1657,
+    "lng": 10.4515,
+    "source": "country"
+  },
+  "assago (mi)|ITA": {
+    "lat": 41.8719,
+    "lng": 12.5674,
+    "source": "country"
+  },
+  "lublin|POL": {
+    "lat": 51.9194,
+    "lng": 19.1451,
+    "source": "country"
+  },
+  "hamburg|DEU": {
+    "lat": 51.1657,
+    "lng": 10.4515,
+    "source": "country"
+  },
+  "kiel|DEU": {
+    "lat": 51.1657,
+    "lng": 10.4515,
+    "source": "country"
+  },
+  "detmold|DEU": {
+    "lat": 51.1657,
+    "lng": 10.4515,
+    "source": "country"
+  },
+  "toulouse|FRA": {
+    "lat": 46.2276,
+    "lng": 2.2137,
+    "source": "country"
+  },
+  "olsztyn|POL": {
+    "lat": 51.9194,
+    "lng": 19.1451,
+    "source": "country"
+  },
+  "szczecin|POL": {
+    "lat": 53.4301818,
+    "lng": 14.5509623,
+    "source": "city"
+  },
+  "koblenz|DEU": {
+    "lat": 50.3533278,
+    "lng": 7.5943951,
+    "source": "city"
+  },
+  "warszawa|POL": {
+    "lat": 52.2333742,
+    "lng": 21.0711489,
+    "source": "city"
+  },
+  "rīga|LVA": {
+    "lat": 56.9493977,
+    "lng": 24.1051846,
+    "source": "city"
+  },
+  "hundstadt|DEU": {
+    "lat": 50.3700235,
+    "lng": 8.4690663,
+    "source": "city"
+  },
+  "стара загора|BGR": {
+    "lat": 42.4248111,
+    "lng": 25.6257479,
+    "source": "city"
+  },
+  "tiefenbach|DEU": {
+    "lat": 49.93772,
+    "lng": 7.5439937,
+    "source": "city"
+  },
+  "fidenza|ITA": {
+    "lat": 44.866522,
+    "lng": 10.0611939,
+    "source": "city"
+  },
+  "düsseldorf|DEU": {
+    "lat": 51.2254018,
+    "lng": 6.7763137,
+    "source": "city"
+  },
+  "san pietro apostolo|ITA": {
+    "lat": 39.004389,
+    "lng": 16.468401,
+    "source": "city"
+  },
+  "köln|DEU": {
+    "lat": 50.938361,
+    "lng": 6.959974,
+    "source": "city"
+  },
+  "24103, 24114 kiel|DEU": {
+    "lat": 54.3153857,
+    "lng": 10.1319905,
+    "source": "city"
+  },
+  "innenstadt der stadt lüchow (wendland)|DEU": {
+    "lat": 51.1657,
+    "lng": 10.4515,
+    "source": "country"
+  },
+  "sint-niklaas|BEL": {
+    "lat": 51.1646685,
+    "lng": 4.1395124,
+    "source": "city"
+  },
+  "trier ehrang|DEU": {
+    "lat": 49.8100628,
+    "lng": 6.6888635,
+    "source": "city"
+  },
+  "bordeaux|FRA": {
+    "lat": 44.841225,
+    "lng": -0.5800364,
+    "source": "city"
+  },
+  "gaggenau|DEU": {
+    "lat": 48.8030291,
+    "lng": 8.3201799,
+    "source": "city"
+  },
+  "ballina mayo|IRL": {
+    "lat": 54.1143359,
+    "lng": -9.1532099,
+    "source": "city"
+  },
+  "puteaux|FRA": {
+    "lat": 48.8841522,
+    "lng": 2.2368863,
+    "source": "city"
+  },
+  "с. фотиново|BGR": {
+    "lat": 42.7339,
+    "lng": 25.4858,
+    "source": "country"
+  },
+  "basse-terre|FRA": {
+    "lat": 16.0000778,
+    "lng": -61.7333373,
+    "source": "city"
+  },
+  "kobylnica|POL": {
+    "lat": 54.4397259,
+    "lng": 16.9968076,
+    "source": "city"
+  },
+  "karlsruhe|DEU": {
+    "lat": 49.0068705,
+    "lng": 8.4034195,
+    "source": "city"
+  },
+  "bonn|DEU": {
+    "lat": 50.7352621,
+    "lng": 7.1024635,
+    "source": "city"
+  },
+  "gerstheim|FRA": {
+    "lat": 48.3803691,
+    "lng": 7.7018376,
+    "source": "city"
+  },
+  "kraków|POL": {
+    "lat": 50.0469432,
+    "lng": 19.9971534,
+    "source": "city"
+  },
+  "potsdam|DEU": {
+    "lat": 52.4009309,
+    "lng": 13.0591397,
+    "source": "city"
+  },
+  "torino (to)|ITA": {
+    "lat": 45.0493009,
+    "lng": 7.6502819,
+    "source": "city"
+  },
+  "merano / meran|ITA": {
+    "lat": 46.6713536,
+    "lng": 11.1646348,
+    "source": "city"
+  },
+  "utsjoki|FIN": {
+    "lat": 69.907601,
+    "lng": 27.0252458,
+    "source": "city"
+  },
+  "lausanne|CHE": {
+    "lat": 46.5218269,
+    "lng": 6.6327025,
+    "source": "city"
+  },
+  "fürstenfeldbruck|DEU": {
+    "lat": 48.1794705,
+    "lng": 11.2547202,
+    "source": "city"
+  },
+  "cava de’ tirreni|ITA": {
+    "lat": 40.7004616,
+    "lng": 14.7062633,
+    "source": "city"
+  },
+  "soissons|FRA": {
+    "lat": 49.3837621,
+    "lng": 3.327613,
+    "source": "city"
+  },
+  "oslo|NOR": {
+    "lat": 59.9133301,
+    "lng": 10.7389701,
+    "source": "city"
+  },
+  "lisboa|PRT": {
+    "lat": 38.7077507,
+    "lng": -9.1365919,
+    "source": "city"
+  },
+  "budapest|HUN": {
+    "lat": 47.4813896,
+    "lng": 19.1457723,
+    "source": "city"
+  },
+  "gaimersheim|DEU": {
+    "lat": 48.8084528,
+    "lng": 11.3699639,
+    "source": "city"
+  },
+  "bergheim|DEU": {
+    "lat": 50.9540457,
+    "lng": 6.6410004,
+    "source": "city"
+  },
+  "deutschland|DEU": {
+    "lat": 51.1638175,
+    "lng": 10.4478313,
+    "source": "city"
+  },
+  "leverkusen|DEU": {
+    "lat": 51.0324743,
+    "lng": 6.9881194,
+    "source": "city"
+  },
+  "berlin|DEU": {
+    "lat": 52.5173885,
+    "lng": 13.3951309,
+    "source": "city"
+  },
+  "paris|FRA": {
+    "lat": 48.8588897,
+    "lng": 2.320041,
+    "source": "city"
+  },
+  "berlin pankow|DEU": {
+    "lat": 52.5662755,
+    "lng": 13.4103397,
+    "source": "city"
+  },
+  "stuttgart|DEU": {
+    "lat": 48.7784485,
+    "lng": 9.1800132,
+    "source": "city"
+  },
+  "bayreuth|DEU": {
+    "lat": 49.9446345,
+    "lng": 11.5743543,
+    "source": "city"
+  },
+  "coimbra|PRT": {
+    "lat": 40.2111931,
+    "lng": -8.4294632,
+    "source": "city"
+  },
+  "fca lieferantenwerk eu|DEU": {
+    "lat": 51.1657,
+    "lng": 10.4515,
+    "source": "country"
+  },
+  "софия|BGR": {
+    "lat": 42.6977028,
+    "lng": 23.3217359,
+    "source": "city"
+  },
+  "kuldīga|LVA": {
+    "lat": 56.9685757,
+    "lng": 21.960778,
+    "source": "city"
+  },
+  "madrid|ESP": {
+    "lat": 40.416782,
+    "lng": -3.703507,
+    "source": "city"
+  },
+  "granville (région normandie)|FRA": {
+    "lat": 46.2276,
+    "lng": 2.2137,
+    "source": "country"
+  },
+  "lyon|FRA": {
+    "lat": 45.7578137,
+    "lng": 4.8320114,
+    "source": "city"
+  },
+  "żary|POL": {
+    "lat": 51.6385162,
+    "lng": 15.1422487,
+    "source": "city"
+  },
+  "montmorillon|FRA": {
+    "lat": 46.4249573,
+    "lng": 0.8682027,
+    "source": "city"
+  },
+  "батак|BGR": {
+    "lat": 41.9429717,
+    "lng": 24.218337,
+    "source": "city"
+  },
+  "wilsdruff|DEU": {
+    "lat": 51.0524125,
+    "lng": 13.5362765,
+    "source": "city"
+  },
+  "chemnitz|DEU": {
+    "lat": 50.8323531,
+    "lng": 12.918914,
+    "source": "city"
+  },
+  "liepāja|LVA": {
+    "lat": 56.5048435,
+    "lng": 21.0070903,
+    "source": "city"
+  },
+  "bełchatów|POL": {
+    "lat": 51.3547046,
+    "lng": 19.3769199,
+    "source": "city"
+  },
+  "ωραιοκαστρο θεσσαλονικης|GRC": {
+    "lat": 40.7259058,
+    "lng": 22.9189694,
+    "source": "city"
+  },
+  "ostrów mazowiecka|POL": {
+    "lat": 52.8071068,
+    "lng": 21.8796379,
+    "source": "city"
+  },
+  "bari|ITA": {
+    "lat": 41.1257843,
+    "lng": 16.8620293,
+    "source": "city"
+  },
+  "isenbüttel|DEU": {
+    "lat": 52.4362812,
+    "lng": 10.5783233,
+    "source": "city"
+  },
+  "katowice|POL": {
+    "lat": 50.2598987,
+    "lng": 19.0215852,
+    "source": "city"
+  },
+  "süsel|DEU": {
+    "lat": 54.0791463,
+    "lng": 10.7132522,
+    "source": "city"
+  },
+  "nietuszkowo|POL": {
+    "lat": 53.0342006,
+    "lng": 16.8283081,
+    "source": "city"
+  },
+  "limbaži|LVA": {
+    "lat": 57.5146586,
+    "lng": 24.7131536,
+    "source": "city"
+  },
+  "herouville-saint-clair|FRA": {
+    "lat": 49.2031097,
+    "lng": -0.3353513,
+    "source": "city"
+  },
+  "klaipėdos r.|LTU": {
+    "lat": 55.5822302,
+    "lng": 21.8089631,
+    "source": "city"
+  },
+  "otwock|POL": {
+    "lat": 52.1041197,
+    "lng": 21.2681092,
+    "source": "city"
+  },
+  "venezia|ITA": {
+    "lat": 45.4046171,
+    "lng": 12.3105232,
+    "source": "city"
+  },
+  "kalná nad hronom|SVK": {
+    "lat": 48.1997294,
+    "lng": 18.5185286,
+    "source": "city"
+  },
+  "bolesławiec|POL": {
+    "lat": 51.2630333,
+    "lng": 15.5651049,
+    "source": "city"
+  },
+  "ul. lekarska 4, 26-600 radom|POL": {
+    "lat": 51.9194,
+    "lng": 19.1451,
+    "source": "country"
+  },
+  "wrocław|POL": {
+    "lat": 51.1089776,
+    "lng": 17.0326689,
+    "source": "city"
+  },
+  "bückeburg|DEU": {
+    "lat": 52.2611037,
+    "lng": 9.0488959,
+    "source": "city"
+  },
+  "ludwigshafen am rhein|DEU": {
+    "lat": 49.4704113,
+    "lng": 8.4381568,
+    "source": "city"
+  },
+  "hannover|DEU": {
+    "lat": 52.3744779,
+    "lng": 9.7385532,
+    "source": "city"
+  },
+  "бургас|BGR": {
+    "lat": 42.4936616,
+    "lng": 27.4721276,
+    "source": "city"
+  },
+  "oostende|BEL": {
+    "lat": 51.2258565,
+    "lng": 2.919496,
+    "source": "city"
+  },
+  "st-maurice|CHE": {
+    "lat": 46.2197694,
+    "lng": 7.0045193,
+    "source": "city"
+  },
+  "trieste|ITA": {
+    "lat": 45.6496485,
+    "lng": 13.7772781,
+    "source": "city"
+  },
+  "romans|FRA": {
+    "lat": 46.1217852,
+    "lng": 5.0238916,
+    "source": "city"
+  },
+  "solingen|DEU": {
+    "lat": 51.1721629,
+    "lng": 7.0845893,
+    "source": "city"
+  },
+  "roma|ITA": {
+    "lat": 41.8933203,
+    "lng": 12.4829321,
+    "source": "city"
+  },
+  "rzeszów|POL": {
+    "lat": 50.0374531,
+    "lng": 22.0047174,
+    "source": "city"
+  },
+  "petite-île|FRA": {
+    "lat": -21.3538884,
+    "lng": 55.5646526,
+    "source": "city"
+  },
+  "groß köris|DEU": {
+    "lat": 52.1646622,
+    "lng": 13.6588172,
+    "source": "city"
+  },
+  "tours|FRA": {
+    "lat": 47.3900474,
+    "lng": 0.6889268,
+    "source": "city"
+  },
+  "móstoles|ESP": {
+    "lat": 40.3238525,
+    "lng": -3.8649214,
+    "source": "city"
+  },
+  "la ciotat|FRA": {
+    "lat": 43.1758591,
+    "lng": 5.6062495,
+    "source": "city"
+  },
+  "lingen (ems)|DEU": {
+    "lat": 52.5224659,
+    "lng": 7.316584,
+    "source": "city"
+  },
+  "cork city|IRL": {
+    "lat": 51.8897795,
+    "lng": -8.4653846,
+    "source": "city"
+  },
+  "mannheim|DEU": {
+    "lat": 49.4892913,
+    "lng": 8.4673098,
+    "source": "city"
+  },
+  "divonne-les-bains|FRA": {
+    "lat": 46.3569916,
+    "lng": 6.142994,
+    "source": "city"
+  },
+  "almere|NLD": {
+    "lat": 52.3705038,
+    "lng": 5.2185859,
+    "source": "city"
+  },
+  "narbonne|FRA": {
+    "lat": 43.1837757,
+    "lng": 3.0041906,
+    "source": "city"
+  },
+  "nyíregyháza|HUN": {
+    "lat": 47.9557802,
+    "lng": 21.7167982,
+    "source": "city"
+  },
+  "ulm|DEU": {
+    "lat": 48.3984968,
+    "lng": 9.9912458,
+    "source": "city"
+  },
+  "le mans|FRA": {
+    "lat": 48.0073849,
+    "lng": 0.1967849,
+    "source": "city"
+  },
+  "donaustauf|DEU": {
+    "lat": 49.0298076,
+    "lng": 12.2076091,
+    "source": "city"
+  },
+  "thionville|FRA": {
+    "lat": 49.3579272,
+    "lng": 6.1675872,
+    "source": "city"
+  },
+  "saint-cyr-l'ecole|FRA": {
+    "lat": 48.799708,
+    "lng": 2.0672138,
+    "source": "city"
+  },
+  "saint-quentin|FRA": {
+    "lat": 49.8465253,
+    "lng": 3.2876843,
+    "source": "city"
+  },
+  "calafell|ESP": {
+    "lat": 41.2009871,
+    "lng": 1.5687244,
+    "source": "city"
+  },
+  "montijo|PRT": {
+    "lat": 38.7060845,
+    "lng": -8.9746372,
+    "source": "city"
+  },
+  "dortmund|DEU": {
+    "lat": 51.5142273,
+    "lng": 7.4652789,
+    "source": "city"
+  },
+  "jaworzno|POL": {
+    "lat": 50.203439,
+    "lng": 19.2721559,
+    "source": "city"
+  },
+  "günzburg|DEU": {
+    "lat": 48.4555244,
+    "lng": 10.2766213,
+    "source": "city"
+  },
+  "chiari|ITA": {
+    "lat": 45.5364624,
+    "lng": 9.928846,
+    "source": "city"
+  },
+  "garching|DEU": {
+    "lat": 48.2513878,
+    "lng": 11.6509662,
+    "source": "city"
+  }
+}

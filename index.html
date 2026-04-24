@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TED Procurement Monitor | Bandi Europei</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Sora:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="masthead">
+        <div class="brand-block">
+          <div class="brand-meta">
+            <span class="eyebrow">monitor procurement ue</span>
+            <span class="meta-chip">TED ufficiale</span>
+            <span class="meta-chip">Aggiornamento auto</span>
+            <span class="meta-chip">Europa</span>
+            <span class="meta-chip">1 marker = 1 bando</span>
+          </div>
+
+          <h1>TED Procurement Monitor</h1>
+          <p class="lead">
+            Bandi TED ufficiali con sync giornaliera, vista Europa, filtri rapidi
+            e dettaglio puntuale del notice.
+          </p>
+        </div>
+
+        <div class="masthead-actions">
+          <div class="action-row">
+            <button id="syncButton" class="action-button action-secondary" type="button">
+              Aggiorna TED
+            </button>
+            <button id="exportButton" class="action-button action-primary" type="button">
+              Export XLS
+            </button>
+          </div>
+
+          <div class="sync-console">
+            <p id="syncHeadline" class="console-line">Archivio TED in attesa di stato.</p>
+            <p id="syncSubline" class="console-line">Scheduler giornaliero non ancora inizializzato.</p>
+          </div>
+        </div>
+      </header>
+
+      <section class="kpi-strip" aria-label="KPI principali">
+        <article class="kpi-card">
+          <p class="kpi-label">Totale DB</p>
+          <strong id="totalCount" class="kpi-value">0</strong>
+          <span class="kpi-note">archivio complessivo</span>
+        </article>
+
+        <article class="kpi-card">
+          <p class="kpi-label">In corso</p>
+          <strong id="activeCount" class="kpi-value">0</strong>
+          <span class="kpi-note">gare attive</span>
+        </article>
+
+        <article class="kpi-card">
+          <p class="kpi-label">Aggiudicati</p>
+          <strong id="awardedCount" class="kpi-value">0</strong>
+          <span class="kpi-note">award nel perimetro</span>
+        </article>
+
+        <article class="kpi-card">
+          <p class="kpi-label">Risultati filtrati</p>
+          <strong id="filteredCount" class="kpi-value">0</strong>
+          <span class="kpi-note">match dopo filtri</span>
+        </article>
+      </section>
+
+      <section class="panel filter-panel">
+        <div class="panel-head">
+          <div>
+            <p class="panel-kicker">Filtri</p>
+            <h2>Filtri operativi</h2>
+          </div>
+          <p id="panelStatus" class="panel-status">In attesa del primo caricamento.</p>
+        </div>
+
+        <div class="filters-grid">
+          <label class="field field-search">
+            <span>Ricerca</span>
+            <input
+              id="searchInput"
+              type="search"
+              placeholder="Titolo, ente, ID, paese"
+            />
+          </label>
+
+          <label class="field">
+            <span>Stato</span>
+            <select id="statusFilter">
+              <option value="all">Tutti</option>
+              <option value="In corso">In corso</option>
+              <option value="Aggiudicato">Aggiudicato</option>
+              <option value="Scaduto">Scaduto</option>
+              <option value="Pubblicato">Pubblicato</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Paese</span>
+            <select id="countryFilter">
+              <option value="all">Tutti i paesi</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Natura</span>
+            <select id="natureFilter">
+              <option value="all">Tutte</option>
+              <option value="works">Lavori</option>
+              <option value="supplies">Forniture</option>
+              <option value="services">Servizi</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Archivio</span>
+            <select id="daysFilter">
+              <option value="7">Ultimi 7 giorni</option>
+              <option value="30" selected>Ultimi 30 giorni</option>
+              <option value="90">Ultimi 90 giorni</option>
+              <option value="all">Tutto l'archivio</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Righe pagina</span>
+            <select id="pageSizeFilter">
+              <option value="15">15</option>
+              <option value="25" selected>25</option>
+              <option value="50">50</option>
+              <option value="100">100</option>
+            </select>
+          </label>
+        </div>
+
+        <div id="errorBanner" class="error-banner" hidden></div>
+      </section>
+
+      <main class="content-grid">
+        <section class="panel map-panel">
+          <div class="panel-head">
+            <div>
+              <p class="panel-kicker">Mappa</p>
+              <h2>Mappa Europa</h2>
+            </div>
+            <p id="mapSummary" class="panel-status">Mappa non ancora popolata.</p>
+          </div>
+
+          <div id="map" class="map-canvas" aria-label="Mappa dei bandi europei"></div>
+
+          <div class="legend-row">
+            <span><i class="legend-dot dot-live"></i> In corso</span>
+            <span><i class="legend-dot dot-awarded"></i> Aggiudicati</span>
+            <span><i class="legend-dot dot-expired"></i> Scaduti</span>
+            <span><i class="legend-dot dot-published"></i> Pubblicati</span>
+          </div>
+        </section>
+
+        <div class="sidebar-stack">
+          <section class="panel ops-panel">
+            <div class="panel-head">
+              <div>
+                <p class="panel-kicker">Archivio</p>
+                <h2>Stato archivio</h2>
+              </div>
+            </div>
+
+            <dl class="info-grid">
+              <div>
+                <dt>Ultimo run</dt>
+                <dd id="lastRunValue">-</dd>
+              </div>
+              <div>
+                <dt>Prossimo run</dt>
+                <dd id="nextRunValue">-</dd>
+              </div>
+              <div>
+                <dt>Ultimo giorno sync</dt>
+                <dd id="lastSyncDateValue">-</dd>
+              </div>
+              <div>
+                <dt>Giorni archiviati</dt>
+                <dd id="storedDaysValue">-</dd>
+              </div>
+              <div>
+                <dt>Copertura</dt>
+                <dd id="coverageValue">-</dd>
+              </div>
+              <div>
+                <dt>Job</dt>
+                <dd id="scheduleValue">-</dd>
+              </div>
+              <div>
+                <dt>Cartella dati</dt>
+                <dd id="archiveFolderValue">-</dd>
+              </div>
+            </dl>
+
+            <div id="archiveDaysList" class="archive-days"></div>
+          </section>
+
+          <section class="panel detail-panel">
+            <div class="panel-head">
+              <div>
+                <p class="panel-kicker">Dettaglio</p>
+                <h2>Scheda bando</h2>
+              </div>
+            </div>
+
+            <div id="selectionEmpty" class="selection-empty">
+              Seleziona un bando per aprire scheda, link TED e posizione.
+            </div>
+
+            <article id="detailCard" class="detail-card" hidden>
+              <div class="detail-header">
+                <span id="detailStatus" class="status-pill">Stato</span>
+                <span id="detailType" class="detail-type">Tipo</span>
+              </div>
+
+              <h3 id="detailTitle" class="detail-title">Titolo bando</h3>
+              <p id="detailBuyer" class="detail-buyer">Ente</p>
+
+              <dl class="info-grid">
+                <div>
+                  <dt>ID</dt>
+                  <dd id="detailId">-</dd>
+                </div>
+                <div>
+                  <dt>Localita</dt>
+                  <dd id="detailLocation">-</dd>
+                </div>
+                <div>
+                  <dt>Pubblicazione</dt>
+                  <dd id="detailPublished">-</dd>
+                </div>
+                <div>
+                  <dt>Scadenza bando</dt>
+                  <dd id="detailDeadline">-</dd>
+                </div>
+                <div>
+                  <dt>Valore</dt>
+                  <dd id="detailValue">-</dd>
+                </div>
+                <div>
+                  <dt>Natura</dt>
+                  <dd id="detailNature">-</dd>
+                </div>
+                <div>
+                  <dt>Procedura</dt>
+                  <dd id="detailProcedure">-</dd>
+                </div>
+                <div>
+                  <dt>Coordinate</dt>
+                  <dd id="detailCoords">-</dd>
+                </div>
+              </dl>
+
+              <div class="detail-links">
+                <a id="detailHtml" class="link-chip" href="#" target="_blank" rel="noreferrer">
+                  HTML
+                </a>
+                <a id="detailPdf" class="link-chip" href="#" target="_blank" rel="noreferrer">
+                  PDF
+                </a>
+                <a id="detailXml" class="link-chip" href="#" target="_blank" rel="noreferrer">
+                  XML
+                </a>
+              </div>
+            </article>
+          </section>
+        </div>
+      </main>
+
+      <section class="panel results-panel">
+        <div class="panel-head">
+          <div>
+            <p class="panel-kicker">Risultati</p>
+            <h2>Elenco bandi</h2>
+          </div>
+          <p id="tableSummary" class="panel-status">0 risultati</p>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Bando</th>
+                <th>Ente</th>
+                <th>Localita</th>
+                <th>Stato</th>
+                <th>Valore</th>
+                <th>Pubblicazione</th>
+                <th>Scadenza</th>
+                <th>Link</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+          </table>
+        </div>
+
+        <div id="emptyState" class="empty-state" hidden>
+          Nessun bando trovato con i filtri correnti.
+        </div>
+
+        <div class="pagination-bar">
+          <button id="prevPageButton" class="pager-button" type="button">Pagina precedente</button>
+          <span id="paginationLabel" class="pagination-label">Pagina 1 di 1</span>
+          <button id="nextPageButton" class="pager-button" type="button">Pagina successiva</button>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <p>
+          Fonte ufficiale:
+          <a
+            href="https://ted.europa.eu/it/simap/developers-corner-for-reusers#download-notices-various-formats"
+            target="_blank"
+            rel="noreferrer"
+          >
+            TED Developers' Corner
+          </a>
+          .
+          API:
+          <a href="https://docs.ted.europa.eu/api/latest/search.html" target="_blank" rel="noreferrer">
+            TED Search API
+          </a>
+          .
+        </p>
+      </footer>
+    </div>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
