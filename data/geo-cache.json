@@ -638,5 +638,85 @@
     "lat": 48.2513878,
     "lng": 11.6509662,
     "source": "city"
+  },
+  "grevenbroich|DEU": {
+    "lat": 51.0862467,
+    "lng": 6.5848937,
+    "source": "city"
+  },
+  "halle (saale)|DEU": {
+    "lat": 51.4824354,
+    "lng": 11.9712985,
+    "source": "city"
+  },
+  "la garenne colombes|FRA": {
+    "lat": 48.9069349,
+    "lng": 2.2465748,
+    "source": "city"
+  },
+  "пловдив|BGR": {
+    "lat": 42.1418541,
+    "lng": 24.7499297,
+    "source": "city"
+  },
+  "münchen|DEU": {
+    "lat": 48.1371079,
+    "lng": 11.5753822,
+    "source": "city"
+  },
+  "ilmenau|DEU": {
+    "lat": 50.6867695,
+    "lng": 10.9142385,
+    "source": "city"
+  },
+  "kaunas|LTU": {
+    "lat": 54.8982139,
+    "lng": 23.9044817,
+    "source": "city"
+  },
+  "strecke 2650 - bahn km 0,0 bis 24,050|DEU": {
+    "lat": 51.1657,
+    "lng": 10.4515,
+    "source": "country"
+  },
+  "villejuif|FRA": {
+    "lat": 48.7921098,
+    "lng": 2.3633048,
+    "source": "city"
+  },
+  "oberding|DEU": {
+    "lat": 48.3224133,
+    "lng": 11.8464367,
+    "source": "city"
+  },
+  "biskupiec|POL": {
+    "lat": 53.8637983,
+    "lng": 20.954989,
+    "source": "city"
+  },
+  "sandomierz|POL": {
+    "lat": 50.6793066,
+    "lng": 21.7495055,
+    "source": "city"
+  },
+  "jarosław|POL": {
+    "lat": 50.0159029,
+    "lng": 22.6796573,
+    "source": "city"
+  },
+  "cazis|CHE": {
+    "lat": 46.7212988,
+    "lng": 9.4303829,
+    "source": "city"
+  },
+  "aachen|DEU": {
+    "lat": 50.776351,
+    "lng": 6.083862,
+    "source": "city"
+  },
+  "poznań|POL": {
+    "lat": 52.4006632,
+    "lng": 16.9197326,
+    "source": "city"
   }
 }

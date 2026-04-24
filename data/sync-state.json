@@ -1,19 +1,16 @@
 {
   "version": 1,
-  "lastError": {
-    "at": "2026-04-24T11:25:37.958Z",
-    "message": "The operation was aborted due to timeout"
-  },
-  "lastRunAt": "2026-04-24T11:23:57.143Z",
+  "lastError": null,
+  "lastRunAt": "2026-04-24T16:32:58.723Z",
   "lastRunSummary": {
     "dateKey": "2026-04-24",
     "noticeCount": 3647,
-    "reason": "manual-snapshot",
+    "reason": "scheduled-snapshot",
     "syncMode": "snapshot",
     "totalMatches": 3647
   },
   "lastSuccessfulSyncDate": "2026-04-24",
-  "nextScheduledRunAt": "2026-04-25T01:15:00.000Z",
+  "nextScheduledRunAt": null,
   "days": {
     "2026-04-21": {
       "noticeCount": 3466,
@@ -34,14 +31,14 @@
       "schemaVersion": 2,
       "syncMode": "complete",
       "totalMatches": 3720,
-      "updatedAt": "2026-04-24T11:20:28.974Z"
+      "updatedAt": "2026-04-24T16:32:36.633Z"
     },
     "2026-04-24": {
       "noticeCount": 3647,
       "schemaVersion": 2,
       "syncMode": "snapshot",
       "totalMatches": 3647,
-      "updatedAt": "2026-04-24T11:23:57.121Z"
+      "updatedAt": "2026-04-24T16:32:58.678Z"
     }
   }
 }
