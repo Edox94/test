@@ -1118,5 +1118,45 @@
     "lat": 59.4823516,
     "lng": 18.2943981,
     "source": "city"
+  },
+  "płock|POL": {
+    "lat": 52.5353471,
+    "lng": 19.7136301,
+    "source": "city"
+  },
+  "mainz|DEU": {
+    "lat": 49.9995205,
+    "lng": 8.2736253,
+    "source": "city"
+  },
+  "berlin tempelhof-schöneberg|DEU": {
+    "lat": 52.4404422,
+    "lng": 13.3883088,
+    "source": "city"
+  },
+  "marineo|ITA": {
+    "lat": 37.9528926,
+    "lng": 13.4150241,
+    "source": "city"
+  },
+  "τ.θ. 23, σχηματαρι βοιωτιας (εργοστασιο)|GRC": {
+    "lat": 39.0742,
+    "lng": 21.8243,
+    "source": "country"
+  },
+  "lubań|POL": {
+    "lat": 51.1147105,
+    "lng": 15.2811574,
+    "source": "city"
+  },
+  "forbach|FRA": {
+    "lat": 49.1862822,
+    "lng": 6.8958562,
+    "source": "city"
+  },
+  "lille|FRA": {
+    "lat": 50.6365654,
+    "lng": 3.0635282,
+    "source": "city"
   }
 }
