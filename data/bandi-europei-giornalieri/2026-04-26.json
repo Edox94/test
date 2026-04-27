@@ -2,12 +2,12 @@
   "dateKey": "2026-04-26",
   "notices": [],
   "totalMatches": 0,
-  "updatedAt": "2026-04-26T07:11:43.678Z",
+  "updatedAt": "2026-04-27T09:33:39.506Z",
   "meta": {
     "geocodedFreshCount": 0,
     "queryDate": "2026-04-26",
     "schemaVersion": 3,
-    "syncMode": "snapshot",
+    "syncMode": "complete",
     "totalPages": 1
   }
 }

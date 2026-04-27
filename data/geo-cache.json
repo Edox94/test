@@ -1158,5 +1158,45 @@
     "lat": 50.6365654,
     "lng": 3.0635282,
     "source": "city"
+  },
+  "gdańsk|POL": {
+    "lat": 54.4288032,
+    "lng": 18.798327,
+    "source": "city"
+  },
+  "varberg|SWE": {
+    "lat": 57.1057412,
+    "lng": 12.2502949,
+    "source": "city"
+  },
+  "montpellier|FRA": {
+    "lat": 43.6112422,
+    "lng": 3.8767337,
+    "source": "city"
+  },
+  "гр .малко търново|BGR": {
+    "lat": 42.7339,
+    "lng": 25.4858,
+    "source": "country"
+  },
+  "ballerup|DNK": {
+    "lat": 55.7303589,
+    "lng": 12.3612313,
+    "source": "city"
+  },
+  "wolmirstedt|DEU": {
+    "lat": 52.2484924,
+    "lng": 11.6267388,
+    "source": "city"
+  },
+  "žilina|SVK": {
+    "lat": 49.2234674,
+    "lng": 18.7393139,
+    "source": "city"
+  },
+  "duisburg|DEU": {
+    "lat": 51.434999,
+    "lng": 6.759562,
+    "source": "city"
   }
 }
