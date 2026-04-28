@@ -1198,5 +1198,85 @@
     "lat": 51.434999,
     "lng": 6.759562,
     "source": "city"
+  },
+  "niort|FRA": {
+    "lat": 46.3239233,
+    "lng": -0.4646064,
+    "source": "city"
+  },
+  "linz|AUT": {
+    "lat": 48.3059078,
+    "lng": 14.286198,
+    "source": "city"
+  },
+  "provincia de girona|ESP": {
+    "lat": 42.0729307,
+    "lng": 2.8357234,
+    "source": "city"
+  },
+  "zürich|CHE": {
+    "lat": 47.3744489,
+    "lng": 8.5410422,
+    "source": "city"
+  },
+  "bad hersfeld|DEU": {
+    "lat": 50.8604177,
+    "lng": 9.6767709,
+    "source": "city"
+  },
+  "wiesbaden|DEU": {
+    "lat": 50.0820384,
+    "lng": 8.2416556,
+    "source": "city"
+  },
+  "malmö|SWE": {
+    "lat": 55.6052931,
+    "lng": 13.0001566,
+    "source": "city"
+  },
+  "ellwangen (jagst)|DEU": {
+    "lat": 48.9615975,
+    "lng": 10.131975,
+    "source": "city"
+  },
+  "san fiorano|ITA": {
+    "lat": 45.136368,
+    "lng": 9.722165,
+    "source": "city"
+  },
+  "rēzekne|LVA": {
+    "lat": 56.506281,
+    "lng": 27.3306623,
+    "source": "city"
+  },
+  "livorno|ITA": {
+    "lat": 42.7902379,
+    "lng": 10.3402239,
+    "source": "city"
+  },
+  "roubaix|FRA": {
+    "lat": 50.6915893,
+    "lng": 3.1741734,
+    "source": "city"
+  },
+  "lutherstadt wittenberg|DEU": {
+    "lat": 51.8666527,
+    "lng": 12.646761,
+    "source": "city"
+  },
+  "grudziądz|POL": {
+    "lat": 53.472512,
+    "lng": 18.7618937,
+    "source": "city"
+  },
+  "zella-mehlis|DEU": {
+    "lat": 50.6560839,
+    "lng": 10.6639646,
+    "source": "city"
+  },
+  "bastia|FRA": {
+    "lat": 42.6974612,
+    "lng": 9.4497707,
+    "source": "city"
   }
 }
