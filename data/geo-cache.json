@@ -1278,5 +1278,85 @@
     "lat": 42.6974612,
     "lng": 9.4497707,
     "source": "city"
+  },
+  "limburg a. d. lahn|DEU": {
+    "lat": 50.3880447,
+    "lng": 8.063531,
+    "source": "city"
+  },
+  "trévenans|FRA": {
+    "lat": 47.5712429,
+    "lng": 6.8623067,
+    "source": "city"
+  },
+  "chęciny|POL": {
+    "lat": 50.8000835,
+    "lng": 20.4622228,
+    "source": "city"
+  },
+  "altendorf|DEU": {
+    "lat": 49.7988053,
+    "lng": 11.0093027,
+    "source": "city"
+  },
+  "saint-denis-de-pile|FRA": {
+    "lat": 44.9918062,
+    "lng": -0.2054117,
+    "source": "city"
+  },
+  "stavanger|NOR": {
+    "lat": 58.9699675,
+    "lng": 5.7318101,
+    "source": "city"
+  },
+  "genève|CHE": {
+    "lat": 46.2017559,
+    "lng": 6.1466014,
+    "source": "city"
+  },
+  "cascina|ITA": {
+    "lat": 43.6766738,
+    "lng": 10.5492244,
+    "source": "city"
+  },
+  "lahr (schwarzwald)|DEU": {
+    "lat": 48.3345157,
+    "lng": 7.8831998,
+    "source": "city"
+  },
+  "landkreis osnabrück|DEU": {
+    "lat": 52.3728208,
+    "lng": 8.1606099,
+    "source": "city"
+  },
+  "le havre|FRA": {
+    "lat": 49.4938975,
+    "lng": 0.1079732,
+    "source": "city"
+  },
+  "freguesia de avelar|PRT": {
+    "lat": 39.9236793,
+    "lng": -8.3576363,
+    "source": "city"
+  },
+  "valmiera, valmieras novads|LVA": {
+    "lat": 57.5389148,
+    "lng": 25.4261688,
+    "source": "city"
+  },
+  "waldsassen|DEU": {
+    "lat": 50.0196799,
+    "lng": 12.3004493,
+    "source": "city"
+  },
+  "strecke 6100 hamburg - berlin, abschnitt hamburg rothenburgsort(e)–büchen(e)|DEU": {
+    "lat": 51.1657,
+    "lng": 10.4515,
+    "source": "country"
+  },
+  "seevetal|DEU": {
+    "lat": 53.3965903,
+    "lng": 10.0176952,
+    "source": "city"
   }
 }
