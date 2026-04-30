@@ -1358,5 +1358,85 @@
     "lat": 53.3965903,
     "lng": 10.0176952,
     "source": "city"
+  },
+  "freguesia de mentrestido|PRT": {
+    "lat": 41.9004841,
+    "lng": -8.6682033,
+    "source": "city"
+  },
+  "intera rete  assago (mi)|ITA": {
+    "lat": 41.8719,
+    "lng": 12.5674,
+    "source": "country"
+  },
+  "roanne|FRA": {
+    "lat": 46.0345572,
+    "lng": 4.0729178,
+    "source": "city"
+  },
+  "sieniawa|POL": {
+    "lat": 50.1780728,
+    "lng": 22.6102155,
+    "source": "city"
+  },
+  "weilheim in oberbayern|DEU": {
+    "lat": 47.8395072,
+    "lng": 11.1416355,
+    "source": "city"
+  },
+  "rennes|FRA": {
+    "lat": 48.1113387,
+    "lng": -1.6800198,
+    "source": "city"
+  },
+  "blanquefort|FRA": {
+    "lat": 44.9088982,
+    "lng": -0.6300363,
+    "source": "city"
+  },
+  "mátészalka|HUN": {
+    "lat": 47.9539113,
+    "lng": 22.3208477,
+    "source": "city"
+  },
+  "chełm|POL": {
+    "lat": 51.1355883,
+    "lng": 23.4939364,
+    "source": "city"
+  },
+  "lich|DEU": {
+    "lat": 50.50516,
+    "lng": 8.84162,
+    "source": "city"
+  },
+  "tessera|ITA": {
+    "lat": 45.4336038,
+    "lng": 9.0850823,
+    "source": "city"
+  },
+  "tübingen|DEU": {
+    "lat": 48.5203263,
+    "lng": 9.053596,
+    "source": "city"
+  },
+  "terni|ITA": {
+    "lat": 42.6539486,
+    "lng": 12.4396528,
+    "source": "city"
+  },
+  "bremen|DEU": {
+    "lat": 53.0758196,
+    "lng": 8.8071646,
+    "source": "city"
+  },
+  "bielefeld|DEU": {
+    "lat": 52.0191005,
+    "lng": 8.531007,
+    "source": "city"
+  },
+  "padova|ITA": {
+    "lat": 45.391408,
+    "lng": 11.8058487,
+    "source": "city"
   }
 }
