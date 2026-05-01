@@ -1438,5 +1438,45 @@
     "lat": 45.391408,
     "lng": 11.8058487,
     "source": "city"
+  },
+  "chivasso (to)|ITA": {
+    "lat": 45.1925396,
+    "lng": 7.8883984,
+    "source": "city"
+  },
+  "jena|DEU": {
+    "lat": 50.9281717,
+    "lng": 11.5879359,
+    "source": "city"
+  },
+  "debrecen|HUN": {
+    "lat": 47.531399,
+    "lng": 21.6259782,
+    "source": "city"
+  },
+  "fougères|FRA": {
+    "lat": 48.3503362,
+    "lng": -1.1958526,
+    "source": "city"
+  },
+  "kandel|DEU": {
+    "lat": 49.0809754,
+    "lng": 8.1970699,
+    "source": "city"
+  },
+  "st. gallen|CHE": {
+    "lat": 47.425618,
+    "lng": 9.3762397,
+    "source": "city"
+  },
+  "centola|ITA": {
+    "lat": 40.066502,
+    "lng": 15.311963,
+    "source": "city"
+  },
+  "weingarten|DEU": {
+    "lat": 47.8075299,
+    "lng": 9.6431145,
+    "source": "city"
   }
 }
