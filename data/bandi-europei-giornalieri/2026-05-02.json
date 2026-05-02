@@ -1,13 +1,13 @@
 {
-  "dateKey": "2026-05-01",
+  "dateKey": "2026-05-02",
   "notices": [],
   "totalMatches": 0,
-  "updatedAt": "2026-05-02T07:13:28.359Z",
+  "updatedAt": "2026-05-02T07:13:28.798Z",
   "meta": {
     "geocodedFreshCount": 0,
-    "queryDate": "2026-05-01",
+    "queryDate": "2026-05-02",
     "schemaVersion": 3,
-    "syncMode": "complete",
+    "syncMode": "snapshot",
     "totalPages": 1
   }
 }
