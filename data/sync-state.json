@@ -1,15 +1,15 @@
 {
   "version": 1,
   "lastError": null,
-  "lastRunAt": "2026-05-03T08:18:15.118Z",
+  "lastRunAt": "2026-05-04T09:34:34.663Z",
   "lastRunSummary": {
-    "dateKey": "2026-05-03",
-    "noticeCount": 0,
+    "dateKey": "2026-05-04",
+    "noticeCount": 4214,
     "reason": "scheduled-snapshot",
     "syncMode": "snapshot",
-    "totalMatches": 0
+    "totalMatches": 4214
   },
-  "lastSuccessfulSyncDate": "2026-05-03",
+  "lastSuccessfulSyncDate": "2026-05-04",
   "nextScheduledRunAt": null,
   "days": {
     "2026-04-21": {
@@ -99,9 +99,16 @@
     "2026-05-03": {
       "noticeCount": 0,
       "schemaVersion": 3,
-      "syncMode": "snapshot",
+      "syncMode": "complete",
       "totalMatches": 0,
-      "updatedAt": "2026-05-03T08:18:15.118Z"
+      "updatedAt": "2026-05-04T09:33:44.539Z"
+    },
+    "2026-05-04": {
+      "noticeCount": 4214,
+      "schemaVersion": 3,
+      "syncMode": "snapshot",
+      "totalMatches": 4214,
+      "updatedAt": "2026-05-04T09:34:34.609Z"
     }
   }
 }

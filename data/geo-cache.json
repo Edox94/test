@@ -1478,5 +1478,45 @@
     "lat": 47.8075299,
     "lng": 9.6431145,
     "source": "city"
+  },
+  "dijon|FRA": {
+    "lat": 47.3215806,
+    "lng": 5.0414701,
+    "source": "city"
+  },
+  "schermbeck|DEU": {
+    "lat": 51.6898739,
+    "lng": 6.8391929,
+    "source": "city"
+  },
+  "limburg|DEU": {
+    "lat": 50.3880447,
+    "lng": 8.063531,
+    "source": "city"
+  },
+  "stendal|DEU": {
+    "lat": 52.6050782,
+    "lng": 11.8594279,
+    "source": "city"
+  },
+  "le puy en velay|FRA": {
+    "lat": 45.0459739,
+    "lng": 3.8855537,
+    "source": "city"
+  },
+  "thalwil|CHE": {
+    "lat": 47.2944325,
+    "lng": 8.5635762,
+    "source": "city"
+  },
+  "świnoujście|POL": {
+    "lat": 53.8270329,
+    "lng": 14.3356892,
+    "source": "city"
+  },
+  "mölnlycke|SWE": {
+    "lat": 57.6583613,
+    "lng": 12.1135762,
+    "source": "city"
   }
 }
