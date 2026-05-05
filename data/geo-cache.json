@@ -1518,5 +1518,85 @@
     "lat": 57.6583613,
     "lng": 12.1135762,
     "source": "city"
+  },
+  "darmstadt|DEU": {
+    "lat": 49.872775,
+    "lng": 8.651177,
+    "source": "city"
+  },
+  "wettstetten|DEU": {
+    "lat": 48.8371276,
+    "lng": 11.4148679,
+    "source": "city"
+  },
+  "bucuresti|ROU": {
+    "lat": 44.4361414,
+    "lng": 26.102684,
+    "source": "city"
+  },
+  "todas|PRT": {
+    "lat": 38.7260759,
+    "lng": -9.1330353,
+    "source": "city"
+  },
+  "lüneburg|DEU": {
+    "lat": 53.248706,
+    "lng": 10.407855,
+    "source": "city"
+  },
+  "löhne|DEU": {
+    "lat": 52.1990346,
+    "lng": 8.7141587,
+    "source": "city"
+  },
+  "sokółka|POL": {
+    "lat": 53.4049183,
+    "lng": 23.4995562,
+    "source": "city"
+  },
+  "wittmund|DEU": {
+    "lat": 53.5366656,
+    "lng": 7.7460764,
+    "source": "city"
+  },
+  "siehe leistungsverzeichnis|DEU": {
+    "lat": 51.1657,
+    "lng": 10.4515,
+    "source": "country"
+  },
+  "heidesee|DEU": {
+    "lat": 52.2564475,
+    "lng": 13.782084,
+    "source": "city"
+  },
+  "comune di orta di atella  orta di atella (ce)|ITA": {
+    "lat": 40.9656388,
+    "lng": 14.268358,
+    "source": "city"
+  },
+  "altendorf|CHE": {
+    "lat": 47.1916374,
+    "lng": 8.8294983,
+    "source": "city"
+  },
+  "eggenstein-leopoldshafen|DEU": {
+    "lat": 49.088332,
+    "lng": 8.4003114,
+    "source": "city"
+  },
+  "село яна|BGR": {
+    "lat": 42.7312404,
+    "lng": 23.5580393,
+    "source": "city"
+  },
+  "sorø|DNK": {
+    "lat": 55.4365822,
+    "lng": 11.5629363,
+    "source": "city"
+  },
+  "gößnitz|DEU": {
+    "lat": 50.889108,
+    "lng": 12.431532,
+    "source": "city"
   }
 }
