@@ -1598,5 +1598,85 @@
     "lat": 50.889108,
     "lng": 12.431532,
     "source": "city"
+  },
+  "sosnowiec|POL": {
+    "lat": 50.2712401,
+    "lng": 19.2155628,
+    "source": "city"
+  },
+  "la rochelle|FRA": {
+    "lat": 46.159732,
+    "lng": -1.1515951,
+    "source": "city"
+  },
+  "lüdenscheid|DEU": {
+    "lat": 51.218137,
+    "lng": 7.6396975,
+    "source": "city"
+  },
+  "carlow|IRL": {
+    "lat": 52.8408344,
+    "lng": -6.9261131,
+    "source": "city"
+  },
+  "st. michaelisdonn|DEU": {
+    "lat": 53.9833,
+    "lng": 9.11667,
+    "source": "city"
+  },
+  "siebeldingen|DEU": {
+    "lat": 49.2098613,
+    "lng": 8.0506907,
+    "source": "city"
+  },
+  "regensdorf|CHE": {
+    "lat": 47.4317645,
+    "lng": 8.4680435,
+    "source": "city"
+  },
+  "algermissen-ummeln|DEU": {
+    "lat": 52.2817606,
+    "lng": 9.9757351,
+    "source": "city"
+  },
+  "gruissan|FRA": {
+    "lat": 43.107039,
+    "lng": 3.0864971,
+    "source": "city"
+  },
+  "nürnberg|DEU": {
+    "lat": 49.453872,
+    "lng": 11.077298,
+    "source": "city"
+  },
+  "bundesweit|DEU": {
+    "lat": 51.1657,
+    "lng": 10.4515,
+    "source": "country"
+  },
+  "osterheide|DEU": {
+    "lat": 52.8322419,
+    "lng": 9.7642741,
+    "source": "city"
+  },
+  "peiting-herzogsägmühle|DEU": {
+    "lat": 51.1657,
+    "lng": 10.4515,
+    "source": "country"
+  },
+  "rehfelde|DEU": {
+    "lat": 52.5089197,
+    "lng": 13.9448525,
+    "source": "city"
+  },
+  "hildesheim|DEU": {
+    "lat": 52.1527188,
+    "lng": 9.9518083,
+    "source": "city"
+  },
+  "nice|FRA": {
+    "lat": 43.7009358,
+    "lng": 7.2683912,
+    "source": "city"
   }
 }
