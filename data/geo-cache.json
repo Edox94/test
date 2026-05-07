@@ -1678,5 +1678,85 @@
     "lat": 43.7009358,
     "lng": 7.2683912,
     "source": "city"
+  },
+  "częstochowa|POL": {
+    "lat": 50.8089997,
+    "lng": 19.1244089,
+    "source": "city"
+  },
+  "ловеч|BGR": {
+    "lat": 43.0444495,
+    "lng": 24.4910249,
+    "source": "city"
+  },
+  "bad homburg vor der höhe|DEU": {
+    "lat": 50.2283803,
+    "lng": 8.6130128,
+    "source": "city"
+  },
+  "stockheim|DEU": {
+    "lat": 50.4652519,
+    "lng": 10.2804418,
+    "source": "city"
+  },
+  "vyšné nemecké|SVK": {
+    "lat": 48.6593683,
+    "lng": 22.2632096,
+    "source": "city"
+  },
+  "helsinki|FIN": {
+    "lat": 60.1666204,
+    "lng": 24.9435408,
+    "source": "city"
+  },
+  "schönefeld|DEU": {
+    "lat": 52.388552,
+    "lng": 13.5048276,
+    "source": "city"
+  },
+  "hamm|DEU": {
+    "lat": 51.681281,
+    "lng": 7.8191185,
+    "source": "city"
+  },
+  "wetzlar|DEU": {
+    "lat": 50.570561,
+    "lng": 8.531245,
+    "source": "city"
+  },
+  "marseille|FRA": {
+    "lat": 43.2963986,
+    "lng": 5.3777888,
+    "source": "city"
+  },
+  "ensisheim|FRA": {
+    "lat": 47.8665246,
+    "lng": 7.3529099,
+    "source": "city"
+  },
+  "heusweiler|DEU": {
+    "lat": 49.3385074,
+    "lng": 6.9298799,
+    "source": "city"
+  },
+  "villers-lès-nancy|FRA": {
+    "lat": 48.6731344,
+    "lng": 6.1536378,
+    "source": "city"
+  },
+  "vilnius|LTU": {
+    "lat": 54.6870458,
+    "lng": 25.2829111,
+    "source": "city"
+  },
+  "jelgava|LVA": {
+    "lat": 56.6522063,
+    "lng": 23.7291999,
+    "source": "city"
+  },
+  "helfaut|FRA": {
+    "lat": 50.697043,
+    "lng": 2.2415082,
+    "source": "city"
   }
 }
