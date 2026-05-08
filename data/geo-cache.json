@@ -1758,5 +1758,85 @@
     "lat": 50.697043,
     "lng": 2.2415082,
     "source": "city"
+  },
+  "denain|FRA": {
+    "lat": 50.3270926,
+    "lng": 3.3943729,
+    "source": "city"
+  },
+  "sankt augustin|DEU": {
+    "lat": 50.7752776,
+    "lng": 7.1895507,
+    "source": "city"
+  },
+  "baja|HUN": {
+    "lat": 46.1785471,
+    "lng": 18.9517255,
+    "source": "city"
+  },
+  "wallers|FRA": {
+    "lat": 50.3730938,
+    "lng": 3.3915411,
+    "source": "city"
+  },
+  "wałbrzych|POL": {
+    "lat": 50.7659054,
+    "lng": 16.2825424,
+    "source": "city"
+  },
+  "maubeuge|FRA": {
+    "lat": 50.2785723,
+    "lng": 3.974307,
+    "source": "city"
+  },
+  "gladbeck|DEU": {
+    "lat": 51.5718665,
+    "lng": 6.9877343,
+    "source": "city"
+  },
+  "bergamo|ITA": {
+    "lat": 45.7566557,
+    "lng": 9.7542192,
+    "source": "city"
+  },
+  "brunnthal|DEU": {
+    "lat": 48.0073142,
+    "lng": 11.683456,
+    "source": "city"
+  },
+  "gessertshausen|DEU": {
+    "lat": 48.33105,
+    "lng": 10.7324995,
+    "source": "city"
+  },
+  "riom|FRA": {
+    "lat": 45.893012,
+    "lng": 3.1140583,
+    "source": "city"
+  },
+  "weißenburg i.bay.|DEU": {
+    "lat": 49.0305748,
+    "lng": 10.9718974,
+    "source": "city"
+  },
+  "greve kommune|DNK": {
+    "lat": 55.587781,
+    "lng": 12.238601,
+    "source": "city"
+  },
+  "mezzavia|FRA": {
+    "lat": 41.9528345,
+    "lng": 8.7808018,
+    "source": "city"
+  },
+  "nantes|FRA": {
+    "lat": 47.2186371,
+    "lng": -1.5541362,
+    "source": "city"
+  },
+  "bad neuenahr-ahrweiler|DEU": {
+    "lat": 50.5444551,
+    "lng": 7.1186671,
+    "source": "city"
   }
 }
