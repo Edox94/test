@@ -1,18 +1,15 @@
 {
   "version": 1,
-  "lastError": {
-    "at": "2026-05-09T07:27:32.569Z",
-    "message": "TED API 403: <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8"
-  },
-  "lastRunAt": "2026-05-08T07:08:45.435Z",
+  "lastError": null,
+  "lastRunAt": "2026-05-10T08:27:31.147Z",
   "lastRunSummary": {
-    "dateKey": "2026-05-08",
-    "noticeCount": 3715,
+    "dateKey": "2026-05-10",
+    "noticeCount": 0,
     "reason": "scheduled-snapshot",
     "syncMode": "snapshot",
-    "totalMatches": 3715
+    "totalMatches": 0
   },
-  "lastSuccessfulSyncDate": "2026-05-08",
+  "lastSuccessfulSyncDate": "2026-05-10",
   "nextScheduledRunAt": null,
   "days": {
     "2026-04-21": {
@@ -140,6 +137,20 @@
       "syncMode": "snapshot",
       "totalMatches": 3715,
       "updatedAt": "2026-05-08T07:08:45.396Z"
+    },
+    "2026-05-09": {
+      "noticeCount": 0,
+      "schemaVersion": 3,
+      "syncMode": "complete",
+      "totalMatches": 0,
+      "updatedAt": "2026-05-10T08:27:30.848Z"
+    },
+    "2026-05-10": {
+      "noticeCount": 0,
+      "schemaVersion": 3,
+      "syncMode": "snapshot",
+      "totalMatches": 0,
+      "updatedAt": "2026-05-10T08:27:31.147Z"
     }
   }
 }
