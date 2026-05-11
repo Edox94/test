@@ -1838,5 +1838,45 @@
     "lat": 50.5444551,
     "lng": 7.1186671,
     "source": "city"
+  },
+  "nogara (vr)|ITA": {
+    "lat": 45.1894187,
+    "lng": 11.065429,
+    "source": "city"
+  },
+  "bochum|DEU": {
+    "lat": 51.4818111,
+    "lng": 7.2196635,
+    "source": "city"
+  },
+  "stockholm|SWE": {
+    "lat": 59.3251172,
+    "lng": 18.0710935,
+    "source": "city"
+  },
+  "münster|DEU": {
+    "lat": 51.9625101,
+    "lng": 7.6251879,
+    "source": "city"
+  },
+  "gera|DEU": {
+    "lat": 50.8765528,
+    "lng": 12.0832674,
+    "source": "city"
+  },
+  "neudenau|DEU": {
+    "lat": 49.2940857,
+    "lng": 9.2731888,
+    "source": "city"
+  },
+  "celle|DEU": {
+    "lat": 52.624056,
+    "lng": 10.081052,
+    "source": "city"
+  },
+  "fürth|DEU": {
+    "lat": 49.4885711,
+    "lng": 10.9587203,
+    "source": "city"
   }
 }
