@@ -3609,7 +3609,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "works",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "DEU",
       "countryName": "Germania",
@@ -11266,7 +11266,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "supplies",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "POL",
       "countryName": "Polonia",
@@ -13163,12 +13163,12 @@
       "countryName": "Germania",
       "city": "Cottbus",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 51.7567447,
+        "lng": 14.3357307,
+        "source": "city"
       },
       "locationLabel": "Cottbus, Germania",
-      "mapKey": "51.166|10.451|DEU|cottbus",
+      "mapKey": "51.757|14.336|DEU|cottbus",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/322517-2026",
         "html": "https://ted.europa.eu/it/notice/322517-2026/html",
@@ -14837,12 +14837,12 @@
       "countryName": "Germania",
       "city": "Dresden",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 51.0493286,
+        "lng": 13.7381437,
+        "source": "city"
       },
       "locationLabel": "Dresden, Germania",
-      "mapKey": "51.166|10.451|DEU|dresden",
+      "mapKey": "51.049|13.738|DEU|dresden",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/322463-2026",
         "html": "https://ted.europa.eu/it/notice/322463-2026/html",
@@ -35855,12 +35855,12 @@
       "countryName": "Germania",
       "city": "Cottbus",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 51.7567447,
+        "lng": 14.3357307,
+        "source": "city"
       },
       "locationLabel": "Cottbus, Germania",
-      "mapKey": "51.166|10.451|DEU|cottbus",
+      "mapKey": "51.757|14.336|DEU|cottbus",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/321785-2026",
         "html": "https://ted.europa.eu/it/notice/321785-2026/html",
@@ -35979,12 +35979,12 @@
       "countryName": "Germania",
       "city": "Cottbus",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 51.7567447,
+        "lng": 14.3357307,
+        "source": "city"
       },
       "locationLabel": "Cottbus, Germania",
-      "mapKey": "51.166|10.451|DEU|cottbus",
+      "mapKey": "51.757|14.336|DEU|cottbus",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/321781-2026",
         "html": "https://ted.europa.eu/it/notice/321781-2026/html",
@@ -39420,12 +39420,12 @@
       "countryName": "Germania",
       "city": "Dresden",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 51.0493286,
+        "lng": 13.7381437,
+        "source": "city"
       },
       "locationLabel": "Dresden, Germania",
-      "mapKey": "51.166|10.451|DEU|dresden",
+      "mapKey": "51.049|13.738|DEU|dresden",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/321670-2026",
         "html": "https://ted.europa.eu/it/notice/321670-2026/html",
@@ -42210,12 +42210,12 @@
       "countryName": "Germania",
       "city": "Dresden",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 51.0493286,
+        "lng": 13.7381437,
+        "source": "city"
       },
       "locationLabel": "Dresden, Germania",
-      "mapKey": "51.166|10.451|DEU|dresden",
+      "mapKey": "51.049|13.738|DEU|dresden",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/321580-2026",
         "html": "https://ted.europa.eu/it/notice/321580-2026/html",
@@ -43450,12 +43450,12 @@
       "countryName": "Germania",
       "city": "Dresden",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 51.0493286,
+        "lng": 13.7381437,
+        "source": "city"
       },
       "locationLabel": "Dresden, Germania",
-      "mapKey": "51.166|10.451|DEU|dresden",
+      "mapKey": "51.049|13.738|DEU|dresden",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/321540-2026",
         "html": "https://ted.europa.eu/it/notice/321540-2026/html",
@@ -48962,7 +48962,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "supplies",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "DEU",
       "countryName": "Germania",
@@ -55385,12 +55385,12 @@
       "countryName": "Germania",
       "city": "Annaberg-Buchholz",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 50.5788781,
+        "lng": 13.0106108,
+        "source": "city"
       },
       "locationLabel": "Annaberg-Buchholz, Germania",
-      "mapKey": "51.166|10.451|DEU|annaberg-buchholz",
+      "mapKey": "50.579|13.011|DEU|annaberg-buchholz",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/321155-2026",
         "html": "https://ted.europa.eu/it/notice/321155-2026/html",
@@ -57425,7 +57425,7 @@
       "procedureType": "neg-w-call",
       "noticeType": "cn-social",
       "contractNature": "services",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "AUT",
       "countryName": "Austria",
@@ -64065,12 +64065,12 @@
       "countryName": "Germania",
       "city": "Herrenberg",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 48.5963819,
+        "lng": 8.8702368,
+        "source": "city"
       },
       "locationLabel": "Herrenberg, Germania",
-      "mapKey": "51.166|10.451|DEU|herrenberg",
+      "mapKey": "48.596|8.870|DEU|herrenberg",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/320875-2026",
         "html": "https://ted.europa.eu/it/notice/320875-2026/html",
@@ -69459,12 +69459,12 @@
       "countryName": "Germania",
       "city": "Dresden",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 51.0493286,
+        "lng": 13.7381437,
+        "source": "city"
       },
       "locationLabel": "Dresden, Germania",
-      "mapKey": "51.166|10.451|DEU|dresden",
+      "mapKey": "51.049|13.738|DEU|dresden",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/320701-2026",
         "html": "https://ted.europa.eu/it/notice/320701-2026/html",
@@ -70916,12 +70916,12 @@
       "countryName": "Germania",
       "city": "Dresden",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 51.0493286,
+        "lng": 13.7381437,
+        "source": "city"
       },
       "locationLabel": "Dresden, Germania",
-      "mapKey": "51.166|10.451|DEU|dresden",
+      "mapKey": "51.049|13.738|DEU|dresden",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/320654-2026",
         "html": "https://ted.europa.eu/it/notice/320654-2026/html",
@@ -74667,12 +74667,12 @@
       "countryName": "Germania",
       "city": "Dresden",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 51.0493286,
+        "lng": 13.7381437,
+        "source": "city"
       },
       "locationLabel": "Dresden, Germania",
-      "mapKey": "51.166|10.451|DEU|dresden",
+      "mapKey": "51.049|13.738|DEU|dresden",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/320533-2026",
         "html": "https://ted.europa.eu/it/notice/320533-2026/html",
@@ -75250,7 +75250,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "supplies",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "EST",
       "countryName": "Estonia",
@@ -82634,12 +82634,12 @@
       "countryName": "Germania",
       "city": "Dresden",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 51.0493286,
+        "lng": 13.7381437,
+        "source": "city"
       },
       "locationLabel": "Dresden, Germania",
-      "mapKey": "51.166|10.451|DEU|dresden",
+      "mapKey": "51.049|13.738|DEU|dresden",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/320276-2026",
         "html": "https://ted.europa.eu/it/notice/320276-2026/html",
@@ -88896,12 +88896,12 @@
       "countryName": "Germania",
       "city": "Dresden",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 51.0493286,
+        "lng": 13.7381437,
+        "source": "city"
       },
       "locationLabel": "Dresden, Germania",
-      "mapKey": "51.166|10.451|DEU|dresden",
+      "mapKey": "51.049|13.738|DEU|dresden",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/320074-2026",
         "html": "https://ted.europa.eu/it/notice/320074-2026/html",
@@ -89919,12 +89919,12 @@
       "countryName": "Germania",
       "city": "Annaberg-Buchholz",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 50.5788781,
+        "lng": 13.0106108,
+        "source": "city"
       },
       "locationLabel": "Annaberg-Buchholz, Germania",
-      "mapKey": "51.166|10.451|DEU|annaberg-buchholz",
+      "mapKey": "50.579|13.011|DEU|annaberg-buchholz",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/320041-2026",
         "html": "https://ted.europa.eu/it/notice/320041-2026/html",
@@ -99560,12 +99560,12 @@
       "countryName": "Germania",
       "city": "Dresden",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 51.0493286,
+        "lng": 13.7381437,
+        "source": "city"
       },
       "locationLabel": "Dresden, Germania",
-      "mapKey": "51.166|10.451|DEU|dresden",
+      "mapKey": "51.049|13.738|DEU|dresden",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/319730-2026",
         "html": "https://ted.europa.eu/it/notice/319730-2026/html",
@@ -107589,12 +107589,12 @@
       "countryName": "Belgio",
       "city": "Brasschaat",
       "coordinates": {
-        "lat": 50.5039,
-        "lng": 4.4699,
-        "source": "country"
+        "lat": 51.2900693,
+        "lng": 4.4917295,
+        "source": "city"
       },
       "locationLabel": "Brasschaat, Belgio",
-      "mapKey": "50.504|4.470|BEL|brasschaat",
+      "mapKey": "51.290|4.492|BEL|brasschaat",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/319471-2026",
         "html": "https://ted.europa.eu/it/notice/319471-2026/html",
@@ -107806,12 +107806,12 @@
       "countryName": "Germania",
       "city": "Herrenberg",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 48.5963819,
+        "lng": 8.8702368,
+        "source": "city"
       },
       "locationLabel": "Herrenberg, Germania",
-      "mapKey": "51.166|10.451|DEU|herrenberg",
+      "mapKey": "48.596|8.870|DEU|herrenberg",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/319464-2026",
         "html": "https://ted.europa.eu/it/notice/319464-2026/html",
@@ -108023,12 +108023,12 @@
       "countryName": "Germania",
       "city": "Lauenburg/Elbe",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 53.3789803,
+        "lng": 10.5513889,
+        "source": "city"
       },
       "locationLabel": "Lauenburg/Elbe, Germania",
-      "mapKey": "51.166|10.451|DEU|lauenburg/elbe",
+      "mapKey": "53.379|10.551|DEU|lauenburg/elbe",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/319457-2026",
         "html": "https://ted.europa.eu/it/notice/319457-2026/html",
@@ -108147,12 +108147,12 @@
       "countryName": "Germania",
       "city": "Annaberg-Buchholz",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 50.5788781,
+        "lng": 13.0106108,
+        "source": "city"
       },
       "locationLabel": "Annaberg-Buchholz, Germania",
-      "mapKey": "51.166|10.451|DEU|annaberg-buchholz",
+      "mapKey": "50.579|13.011|DEU|annaberg-buchholz",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/319453-2026",
         "html": "https://ted.europa.eu/it/notice/319453-2026/html",
@@ -108364,12 +108364,12 @@
       "countryName": "Germania",
       "city": "Cottbus",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 51.7567447,
+        "lng": 14.3357307,
+        "source": "city"
       },
       "locationLabel": "Cottbus, Germania",
-      "mapKey": "51.166|10.451|DEU|cottbus",
+      "mapKey": "51.757|14.336|DEU|cottbus",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/319446-2026",
         "html": "https://ted.europa.eu/it/notice/319446-2026/html",
@@ -108457,12 +108457,12 @@
       "countryName": "Germania",
       "city": "Dresden",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 51.0493286,
+        "lng": 13.7381437,
+        "source": "city"
       },
       "locationLabel": "Dresden, Germania",
-      "mapKey": "51.166|10.451|DEU|dresden",
+      "mapKey": "51.049|13.738|DEU|dresden",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/319443-2026",
         "html": "https://ted.europa.eu/it/notice/319443-2026/html",
@@ -108550,12 +108550,12 @@
       "countryName": "Italia",
       "city": "Turate",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 45.6550715,
+        "lng": 9.0018878,
+        "source": "city"
       },
       "locationLabel": "Turate, Italia",
-      "mapKey": "41.872|12.567|ITA|turate",
+      "mapKey": "45.655|9.002|ITA|turate",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/319440-2026",
         "html": "https://ted.europa.eu/it/notice/319440-2026/html",
@@ -108674,12 +108674,12 @@
       "countryName": "Lettonia",
       "city": "Saulkrasti",
       "coordinates": {
-        "lat": 56.8796,
-        "lng": 24.6032,
-        "source": "country"
+        "lat": 57.263391,
+        "lng": 24.415245,
+        "source": "city"
       },
       "locationLabel": "Saulkrasti, Lettonia",
-      "mapKey": "56.880|24.603|LVA|saulkrasti",
+      "mapKey": "57.263|24.415|LVA|saulkrasti",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/319436-2026",
         "html": "https://ted.europa.eu/it/notice/319436-2026/html",
@@ -109464,12 +109464,12 @@
     }
   ],
   "totalMatches": 3531,
-  "updatedAt": "2026-05-11T12:31:22.438Z",
+  "updatedAt": "2026-05-12T10:42:32.546Z",
   "meta": {
     "geocodedFreshCount": 8,
     "queryDate": "2026-05-11",
     "schemaVersion": 3,
-    "syncMode": "snapshot",
+    "syncMode": "complete",
     "totalPages": 18
   }
 }

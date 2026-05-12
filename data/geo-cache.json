@@ -1878,5 +1878,85 @@
     "lat": 49.4885711,
     "lng": 10.9587203,
     "source": "city"
+  },
+  "saulkrasti|LVA": {
+    "lat": 57.263391,
+    "lng": 24.415245,
+    "source": "city"
+  },
+  "turate|ITA": {
+    "lat": 45.6550715,
+    "lng": 9.0018878,
+    "source": "city"
+  },
+  "cottbus|DEU": {
+    "lat": 51.7567447,
+    "lng": 14.3357307,
+    "source": "city"
+  },
+  "dresden|DEU": {
+    "lat": 51.0493286,
+    "lng": 13.7381437,
+    "source": "city"
+  },
+  "annaberg-buchholz|DEU": {
+    "lat": 50.5788781,
+    "lng": 13.0106108,
+    "source": "city"
+  },
+  "lauenburg/elbe|DEU": {
+    "lat": 53.3789803,
+    "lng": 10.5513889,
+    "source": "city"
+  },
+  "herrenberg|DEU": {
+    "lat": 48.5963819,
+    "lng": 8.8702368,
+    "source": "city"
+  },
+  "brasschaat|BEL": {
+    "lat": 51.2900693,
+    "lng": 4.4917295,
+    "source": "city"
+  },
+  "veitshöchheim|DEU": {
+    "lat": 49.8408582,
+    "lng": 9.8889132,
+    "source": "city"
+  },
+  "montelimar|FRA": {
+    "lat": 44.5579391,
+    "lng": 4.750318,
+    "source": "city"
+  },
+  "rouen|FRA": {
+    "lat": 49.4404591,
+    "lng": 1.0939658,
+    "source": "city"
+  },
+  "joensuu|FIN": {
+    "lat": 62.6006375,
+    "lng": 29.7619759,
+    "source": "city"
+  },
+  "lichtenberg|DEU": {
+    "lat": 52.5321606,
+    "lng": 13.5118927,
+    "source": "city"
+  },
+  "puszczykowo|POL": {
+    "lat": 52.277612,
+    "lng": 16.8557214,
+    "source": "city"
+  },
+  "sint-pieters-leeuw|BEL": {
+    "lat": 50.7800261,
+    "lng": 4.2443604,
+    "source": "city"
+  },
+  "międzyrzecz|POL": {
+    "lat": 52.4448261,
+    "lng": 15.578637,
+    "source": "city"
   }
 }
