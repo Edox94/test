@@ -1958,5 +1958,85 @@
     "lat": 52.4448261,
     "lng": 15.578637,
     "source": "city"
+  },
+  "cadarache|FRA": {
+    "lat": 43.7175602,
+    "lng": 5.7497166,
+    "source": "city"
+  },
+  "kaiserslautern|DEU": {
+    "lat": 49.4432174,
+    "lng": 7.7689951,
+    "source": "city"
+  },
+  "großrinderfeld|DEU": {
+    "lat": 49.6657707,
+    "lng": 9.7332965,
+    "source": "city"
+  },
+  "freguesia de cacia|PRT": {
+    "lat": 40.6837054,
+    "lng": -8.5974274,
+    "source": "city"
+  },
+  "wedel|DEU": {
+    "lat": 53.5810226,
+    "lng": 9.7038772,
+    "source": "city"
+  },
+  "spremberg|DEU": {
+    "lat": 51.5714513,
+    "lng": 14.3804302,
+    "source": "city"
+  },
+  "trans en provence|FRA": {
+    "lat": 43.5039337,
+    "lng": 6.4867321,
+    "source": "city"
+  },
+  "zwenkau|DEU": {
+    "lat": 51.2182735,
+    "lng": 12.324152,
+    "source": "city"
+  },
+  "ammerndorf|DEU": {
+    "lat": 49.4206774,
+    "lng": 10.8514713,
+    "source": "city"
+  },
+  "waren (müritz)|DEU": {
+    "lat": 53.5156249,
+    "lng": 12.6850606,
+    "source": "city"
+  },
+  "männedorf|CHE": {
+    "lat": 47.253174,
+    "lng": 8.6918153,
+    "source": "city"
+  },
+  "siehe anlage stationsanschriften|DEU": {
+    "lat": 51.1657,
+    "lng": 10.4515,
+    "source": "country"
+  },
+  "ieper|BEL": {
+    "lat": 50.8521947,
+    "lng": 2.8846047,
+    "source": "city"
+  },
+  "neustadt an der weinstraße|DEU": {
+    "lat": 49.3536057,
+    "lng": 8.1360247,
+    "source": "city"
+  },
+  "skarżysko-kamienna|POL": {
+    "lat": 51.1138821,
+    "lng": 20.857883,
+    "source": "city"
+  },
+  "ingelheim am rhein|DEU": {
+    "lat": 49.9752749,
+    "lng": 8.0547274,
+    "source": "city"
   }
 }
