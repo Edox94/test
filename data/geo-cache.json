@@ -2078,5 +2078,45 @@
     "lat": -20.8892865,
     "lng": 55.461072,
     "source": "city"
+  },
+  "almada|PRT": {
+    "lat": 38.6831302,
+    "lng": -9.1576301,
+    "source": "city"
+  },
+  "grenoble|FRA": {
+    "lat": 45.1875602,
+    "lng": 5.7357819,
+    "source": "city"
+  },
+  "fort de france|FRA": {
+    "lat": 14.6027962,
+    "lng": -61.0676724,
+    "source": "city"
+  },
+  "saint-laurent-blangy cedex|FRA": {
+    "lat": 46.2276,
+    "lng": 2.2137,
+    "source": "country"
+  },
+  "oberkrämer|DEU": {
+    "lat": 52.7079067,
+    "lng": 13.1099284,
+    "source": "city"
+  },
+  "groß-gerau|DEU": {
+    "lat": 49.8964205,
+    "lng": 8.4553977,
+    "source": "city"
+  },
+  "eisenberg|DEU": {
+    "lat": 50.9691346,
+    "lng": 11.8961116,
+    "source": "city"
+  },
+  "ασπροπυργος|GRC": {
+    "lat": 38.0810562,
+    "lng": 23.6042741,
+    "source": "city"
   }
 }
