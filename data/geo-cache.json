@@ -2118,5 +2118,45 @@
     "lat": 38.0810562,
     "lng": 23.6042741,
     "source": "city"
+  },
+  "gorzów wielkopolski|POL": {
+    "lat": 52.7309926,
+    "lng": 15.2400451,
+    "source": "city"
+  },
+  "grande-synthe|FRA": {
+    "lat": 51.0134813,
+    "lng": 2.3029972,
+    "source": "city"
+  },
+  "bratislava - mestská časť petržalka|SVK": {
+    "lat": 48.110972,
+    "lng": 17.1112897,
+    "source": "city"
+  },
+  "powiat poznański|POL": {
+    "lat": 52.4160308,
+    "lng": 17.2150306,
+    "source": "city"
+  },
+  "avilés|ESP": {
+    "lat": 43.5554436,
+    "lng": -5.9222466,
+    "source": "city"
+  },
+  "jamlitz|DEU": {
+    "lat": 51.9917096,
+    "lng": 14.3532385,
+    "source": "city"
+  },
+  "λαρισα|GRC": {
+    "lat": 39.6383092,
+    "lng": 22.4160706,
+    "source": "city"
+  },
+  "weilerswist|DEU": {
+    "lat": 50.7580669,
+    "lng": 6.8407873,
+    "source": "city"
   }
 }
