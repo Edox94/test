@@ -2158,5 +2158,45 @@
     "lat": 50.7580669,
     "lng": 6.8407873,
     "source": "city"
+  },
+  "puchaczów|POL": {
+    "lat": 51.3096213,
+    "lng": 22.9741647,
+    "source": "city"
+  },
+  "dąbrowa górnicza|POL": {
+    "lat": 50.369624,
+    "lng": 19.2890465,
+    "source": "city"
+  },
+  "fca-lieferantenwerk eu (incoterms 2020)|DEU": {
+    "lat": 51.1657,
+    "lng": 10.4515,
+    "source": "country"
+  },
+  "κισσαμος|GRC": {
+    "lat": 35.4933441,
+    "lng": 23.6594698,
+    "source": "city"
+  },
+  "senica|SVK": {
+    "lat": 48.6787557,
+    "lng": 17.3661529,
+    "source": "city"
+  },
+  "manzano|ITA": {
+    "lat": 45.9905116,
+    "lng": 13.3815041,
+    "source": "city"
+  },
+  "marki|POL": {
+    "lat": 52.3254611,
+    "lng": 21.1054691,
+    "source": "city"
+  },
+  "modliborzyce|POL": {
+    "lat": 50.7534467,
+    "lng": 22.3291714,
+    "source": "city"
   }
 }
