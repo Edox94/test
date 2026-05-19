@@ -22432,12 +22432,12 @@
       "countryName": "Polonia",
       "city": "Gdynia",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 54.5164982,
+        "lng": 18.5402738,
+        "source": "city"
       },
       "locationLabel": "Gdynia, Polonia",
-      "mapKey": "51.919|19.145|POL|gdynia",
+      "mapKey": "54.516|18.540|POL|gdynia",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/339037-2026",
         "html": "https://ted.europa.eu/it/notice/339037-2026/html",
@@ -31515,12 +31515,12 @@
       "countryName": "Lettonia",
       "city": "Jēkabpils",
       "coordinates": {
-        "lat": 56.8796,
-        "lng": 24.6032,
-        "source": "country"
+        "lat": 56.4958638,
+        "lng": 25.8687747,
+        "source": "city"
       },
       "locationLabel": "Jēkabpils, Lettonia",
-      "mapKey": "56.880|24.603|LVA|jēkabpils",
+      "mapKey": "56.496|25.869|LVA|jēkabpils",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/338744-2026",
         "html": "https://ted.europa.eu/it/notice/338744-2026/html",
@@ -32383,12 +32383,12 @@
       "countryName": "Polonia",
       "city": "Gdynia",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 54.5164982,
+        "lng": 18.5402738,
+        "source": "city"
       },
       "locationLabel": "Gdynia, Polonia",
-      "mapKey": "51.919|19.145|POL|gdynia",
+      "mapKey": "54.516|18.540|POL|gdynia",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/338716-2026",
         "html": "https://ted.europa.eu/it/notice/338716-2026/html",
@@ -33648,7 +33648,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "services",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "ITA",
       "countryName": "Italia",
@@ -36847,12 +36847,12 @@
       "countryName": "Polonia",
       "city": "Gdynia",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 54.5164982,
+        "lng": 18.5402738,
+        "source": "city"
       },
       "locationLabel": "Gdynia, Polonia",
-      "mapKey": "51.919|19.145|POL|gdynia",
+      "mapKey": "54.516|18.540|POL|gdynia",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/338572-2026",
         "html": "https://ted.europa.eu/it/notice/338572-2026/html",
@@ -37957,7 +37957,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "services",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "FRA",
       "countryName": "Francia",
@@ -41460,7 +41460,7 @@
       "procedureType": "neg-w-call",
       "noticeType": "cn-standard",
       "contractNature": "services",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Domande",
       "countryCode": "LTU",
       "countryName": "Lituania",
@@ -48720,12 +48720,12 @@
       "countryName": "Polonia",
       "city": "Gdynia",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 54.5164982,
+        "lng": 18.5402738,
+        "source": "city"
       },
       "locationLabel": "Gdynia, Polonia",
-      "mapKey": "51.919|19.145|POL|gdynia",
+      "mapKey": "54.516|18.540|POL|gdynia",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/338189-2026",
         "html": "https://ted.europa.eu/it/notice/338189-2026/html",
@@ -65950,7 +65950,7 @@
       "procedureType": "oth-mult",
       "noticeType": "cn-desg",
       "contractNature": "services",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Domande",
       "countryCode": "DEU",
       "countryName": "Germania",
@@ -77823,7 +77823,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "supplies",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "DEU",
       "countryName": "Germania",
@@ -94501,7 +94501,7 @@
       "procedureType": "open",
       "noticeType": "cn-social",
       "contractNature": "services",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "FRA",
       "countryName": "Francia",
@@ -126555,7 +126555,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "supplies",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "FRA",
       "countryName": "Francia",
@@ -130554,7 +130554,7 @@
       "procedureType": "neg-w-call",
       "noticeType": "cn-standard",
       "contractNature": "supplies",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Domande",
       "countryCode": "LTU",
       "countryName": "Lituania",
@@ -150090,12 +150090,12 @@
       "countryName": "Polonia",
       "city": "Gdynia",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 54.5164982,
+        "lng": 18.5402738,
+        "source": "city"
       },
       "locationLabel": "Gdynia, Polonia",
-      "mapKey": "51.919|19.145|POL|gdynia",
+      "mapKey": "54.516|18.540|POL|gdynia",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/334919-2026",
         "html": "https://ted.europa.eu/it/notice/334919-2026/html",
@@ -157406,12 +157406,12 @@
       "countryName": "Germania",
       "city": "Troisdorf",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 50.8153071,
+        "lng": 7.1593271,
+        "source": "city"
       },
       "locationLabel": "Troisdorf, Germania",
-      "mapKey": "51.166|10.451|DEU|troisdorf",
+      "mapKey": "50.815|7.159|DEU|troisdorf",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/334683-2026",
         "html": "https://ted.europa.eu/it/notice/334683-2026/html",
@@ -157964,12 +157964,12 @@
       "countryName": "Polonia",
       "city": "Gdynia",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 54.5164982,
+        "lng": 18.5402738,
+        "source": "city"
       },
       "locationLabel": "Gdynia, Polonia",
-      "mapKey": "51.919|19.145|POL|gdynia",
+      "mapKey": "54.516|18.540|POL|gdynia",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/334665-2026",
         "html": "https://ted.europa.eu/it/notice/334665-2026/html",
@@ -158181,12 +158181,12 @@
       "countryName": "Irlanda",
       "city": "Athlone",
       "coordinates": {
-        "lat": 53.4129,
-        "lng": -8.2439,
-        "source": "country"
+        "lat": 53.4228434,
+        "lng": -7.9425897,
+        "source": "city"
       },
       "locationLabel": "Athlone, Irlanda",
-      "mapKey": "53.413|-8.244|IRL|athlone",
+      "mapKey": "53.423|-7.943|IRL|athlone",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/334658-2026",
         "html": "https://ted.europa.eu/it/notice/334658-2026/html",
@@ -158646,12 +158646,12 @@
       "countryName": "Polonia",
       "city": "NOWA SÓL",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 51.8033431,
+        "lng": 15.7062381,
+        "source": "city"
       },
       "locationLabel": "NOWA SÓL, Polonia",
-      "mapKey": "51.919|19.145|POL|nowa sól",
+      "mapKey": "51.803|15.706|POL|nowa sól",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/334643-2026",
         "html": "https://ted.europa.eu/it/notice/334643-2026/html",
@@ -158801,12 +158801,12 @@
       "countryName": "Italia",
       "city": "ancona",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 43.4801189,
+        "lng": 13.2187279,
+        "source": "city"
       },
       "locationLabel": "ancona, Italia",
-      "mapKey": "41.872|12.567|ITA|ancona",
+      "mapKey": "43.480|13.219|ITA|ancona",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/334638-2026",
         "html": "https://ted.europa.eu/it/notice/334638-2026/html",
@@ -159080,12 +159080,12 @@
       "countryName": "Polonia",
       "city": "Rogowiec",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 51.2762795,
+        "lng": 19.3053478,
+        "source": "city"
       },
       "locationLabel": "Rogowiec, Polonia",
-      "mapKey": "51.919|19.145|POL|rogowiec",
+      "mapKey": "51.276|19.305|POL|rogowiec",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/334629-2026",
         "html": "https://ted.europa.eu/it/notice/334629-2026/html",
@@ -159173,12 +159173,12 @@
       "countryName": "Svezia",
       "city": "Växjö",
       "coordinates": {
-        "lat": 60.1282,
-        "lng": 18.6435,
-        "source": "country"
+        "lat": 56.8787183,
+        "lng": 14.8094385,
+        "source": "city"
       },
       "locationLabel": "Växjö, Svezia",
-      "mapKey": "60.128|18.643|SWE|växjö",
+      "mapKey": "56.879|14.809|SWE|växjö",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/334626-2026",
         "html": "https://ted.europa.eu/it/notice/334626-2026/html",
@@ -159297,12 +159297,12 @@
       "countryName": "Lettonia",
       "city": "Jēkabpils",
       "coordinates": {
-        "lat": 56.8796,
-        "lng": 24.6032,
-        "source": "country"
+        "lat": 56.4958638,
+        "lng": 25.8687747,
+        "source": "city"
       },
       "locationLabel": "Jēkabpils, Lettonia",
-      "mapKey": "56.880|24.603|LVA|jēkabpils",
+      "mapKey": "56.496|25.869|LVA|jēkabpils",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/334622-2026",
         "html": "https://ted.europa.eu/it/notice/334622-2026/html",
@@ -160769,12 +160769,12 @@
     }
   ],
   "totalMatches": 5186,
-  "updatedAt": "2026-05-18T05:18:02.099Z",
+  "updatedAt": "2026-05-19T05:13:31.779Z",
   "meta": {
     "geocodedFreshCount": 8,
     "queryDate": "2026-05-18",
     "schemaVersion": 3,
-    "syncMode": "snapshot",
+    "syncMode": "complete",
     "totalPages": 26
   }
 }

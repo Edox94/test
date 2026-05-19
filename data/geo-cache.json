@@ -2198,5 +2198,85 @@
     "lat": 50.7534467,
     "lng": 22.3291714,
     "source": "city"
+  },
+  "växjö|SWE": {
+    "lat": 56.8787183,
+    "lng": 14.8094385,
+    "source": "city"
+  },
+  "jēkabpils|LVA": {
+    "lat": 56.4958638,
+    "lng": 25.8687747,
+    "source": "city"
+  },
+  "rogowiec|POL": {
+    "lat": 51.2762795,
+    "lng": 19.3053478,
+    "source": "city"
+  },
+  "ancona|ITA": {
+    "lat": 43.4801189,
+    "lng": 13.2187279,
+    "source": "city"
+  },
+  "athlone|IRL": {
+    "lat": 53.4228434,
+    "lng": -7.9425897,
+    "source": "city"
+  },
+  "nowa sól|POL": {
+    "lat": 51.8033431,
+    "lng": 15.7062381,
+    "source": "city"
+  },
+  "gdynia|POL": {
+    "lat": 54.5164982,
+    "lng": 18.5402738,
+    "source": "city"
+  },
+  "troisdorf|DEU": {
+    "lat": 50.8153071,
+    "lng": 7.1593271,
+    "source": "city"
+  },
+  "nowy targ|POL": {
+    "lat": 49.4892092,
+    "lng": 20.0263411,
+    "source": "city"
+  },
+  "port lotniczy gdynia kosakowo|POL": {
+    "lat": 54.5790248,
+    "lng": 18.5200209,
+    "source": "city"
+  },
+  "iggensbach|DEU": {
+    "lat": 48.730933,
+    "lng": 13.141065,
+    "source": "city"
+  },
+  "tolna|HUN": {
+    "lat": 46.4883447,
+    "lng": 18.5050005,
+    "source": "city"
+  },
+  "osterholz-scharmbeck|DEU": {
+    "lat": 53.2281763,
+    "lng": 8.7948239,
+    "source": "city"
+  },
+  "košice - mestská časť barca|SVK": {
+    "lat": 48.6765971,
+    "lng": 21.265998,
+    "source": "city"
+  },
+  "löbejün|DEU": {
+    "lat": 51.6367961,
+    "lng": 11.9011036,
+    "source": "city"
+  },
+  "remscheid|DEU": {
+    "lat": 51.1798706,
+    "lng": 7.1943544,
+    "source": "city"
   }
 }
