@@ -7329,7 +7329,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "works",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": null,
       "countryName": "n.d.",
@@ -17410,12 +17410,12 @@
       "countryName": "Polonia",
       "city": "Suwałki",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 54.0990636,
+        "lng": 22.9279363,
+        "source": "city"
       },
       "locationLabel": "Suwałki, Polonia",
-      "mapKey": "51.919|19.145|POL|suwałki",
+      "mapKey": "54.099|22.928|POL|suwałki",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/342569-2026",
         "html": "https://ted.europa.eu/it/notice/342569-2026/html",
@@ -37250,12 +37250,12 @@
       "countryName": "Polonia",
       "city": "Suwałki",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 54.0990636,
+        "lng": 22.9279363,
+        "source": "city"
       },
       "locationLabel": "Suwałki, Polonia",
-      "mapKey": "51.919|19.145|POL|suwałki",
+      "mapKey": "54.099|22.928|POL|suwałki",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/341929-2026",
         "html": "https://ted.europa.eu/it/notice/341929-2026/html",
@@ -54021,12 +54021,12 @@
       "countryName": "Germania",
       "city": "Bad Soden-Salmünster",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 50.2801792,
+        "lng": 9.3704249,
+        "source": "city"
       },
       "locationLabel": "Bad Soden-Salmünster, Germania",
-      "mapKey": "51.166|10.451|DEU|bad soden-salmünster",
+      "mapKey": "50.280|9.370|DEU|bad soden-salmünster",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/341388-2026",
         "html": "https://ted.europa.eu/it/notice/341388-2026/html",
@@ -57394,7 +57394,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "services",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "ESP",
       "countryName": "Spagna",
@@ -63284,7 +63284,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "works",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "DEU",
       "countryName": "Germania",
@@ -77240,12 +77240,12 @@
       "countryName": "Polonia",
       "city": "Suwałki",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 54.0990636,
+        "lng": 22.9279363,
+        "source": "city"
       },
       "locationLabel": "Suwałki, Polonia",
-      "mapKey": "51.919|19.145|POL|suwałki",
+      "mapKey": "54.099|22.928|POL|suwałki",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/340639-2026",
         "html": "https://ted.europa.eu/it/notice/340639-2026/html",
@@ -80898,12 +80898,12 @@
       "countryName": "Germania",
       "city": "Bad Soden-Salmünster",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 50.2801792,
+        "lng": 9.3704249,
+        "source": "city"
       },
       "locationLabel": "Bad Soden-Salmünster, Germania",
-      "mapKey": "51.166|10.451|DEU|bad soden-salmünster",
+      "mapKey": "50.280|9.370|DEU|bad soden-salmünster",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/340521-2026",
         "html": "https://ted.europa.eu/it/notice/340521-2026/html",
@@ -90663,12 +90663,12 @@
       "countryName": "Polonia",
       "city": "Krosno",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 49.6938045,
+        "lng": 21.7651458,
+        "source": "city"
       },
       "locationLabel": "Krosno, Polonia",
-      "mapKey": "51.919|19.145|POL|krosno",
+      "mapKey": "49.694|21.765|POL|krosno",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/340206-2026",
         "html": "https://ted.europa.eu/it/notice/340206-2026/html",
@@ -91407,12 +91407,12 @@
       "countryName": "Germania",
       "city": "Bad Soden-Salmünster",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 50.2801792,
+        "lng": 9.3704249,
+        "source": "city"
       },
       "locationLabel": "Bad Soden-Salmünster, Germania",
-      "mapKey": "51.166|10.451|DEU|bad soden-salmünster",
+      "mapKey": "50.280|9.370|DEU|bad soden-salmünster",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/340182-2026",
         "html": "https://ted.europa.eu/it/notice/340182-2026/html",
@@ -96119,12 +96119,12 @@
       "countryName": "Germania",
       "city": "Osnabrück",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 52.2719595,
+        "lng": 8.047635,
+        "source": "city"
       },
       "locationLabel": "Osnabrück, Germania",
-      "mapKey": "51.166|10.451|DEU|osnabrück",
+      "mapKey": "52.272|8.048|DEU|osnabrück",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/340030-2026",
         "html": "https://ted.europa.eu/it/notice/340030-2026/html",
@@ -97849,7 +97849,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "services",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "FIN",
       "countryName": "Finlandia",
@@ -102071,12 +102071,12 @@
       "countryName": "Polonia",
       "city": "Krosno",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 49.6938045,
+        "lng": 21.7651458,
+        "source": "city"
       },
       "locationLabel": "Krosno, Polonia",
-      "mapKey": "51.919|19.145|POL|krosno",
+      "mapKey": "49.694|21.765|POL|krosno",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/339838-2026",
         "html": "https://ted.europa.eu/it/notice/339838-2026/html",
@@ -102164,12 +102164,12 @@
       "countryName": "Germania",
       "city": "Weißenfels",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 51.1999793,
+        "lng": 11.9667857,
+        "source": "city"
       },
       "locationLabel": "Weißenfels, Germania",
-      "mapKey": "51.166|10.451|DEU|weißenfels",
+      "mapKey": "51.200|11.967|DEU|weißenfels",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/339835-2026",
         "html": "https://ted.europa.eu/it/notice/339835-2026/html",
@@ -102381,12 +102381,12 @@
       "countryName": "Germania",
       "city": "Osnabrück",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 52.2719595,
+        "lng": 8.047635,
+        "source": "city"
       },
       "locationLabel": "Osnabrück, Germania",
-      "mapKey": "51.166|10.451|DEU|osnabrück",
+      "mapKey": "52.272|8.048|DEU|osnabrück",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/339828-2026",
         "html": "https://ted.europa.eu/it/notice/339828-2026/html",
@@ -102443,12 +102443,12 @@
       "countryName": "Germania",
       "city": "Dingolfing",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 48.6300801,
+        "lng": 12.4977434,
+        "source": "city"
       },
       "locationLabel": "Dingolfing, Germania",
-      "mapKey": "51.166|10.451|DEU|dingolfing",
+      "mapKey": "48.630|12.498|DEU|dingolfing",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/339826-2026",
         "html": "https://ted.europa.eu/it/notice/339826-2026/html",
@@ -102629,12 +102629,12 @@
       "countryName": "Francia",
       "city": "le croisic",
       "coordinates": {
-        "lat": 46.2276,
-        "lng": 2.2137,
-        "source": "country"
+        "lat": 47.2933971,
+        "lng": -2.5094404,
+        "source": "city"
       },
       "locationLabel": "le croisic, Francia",
-      "mapKey": "46.228|2.214|FRA|le croisic",
+      "mapKey": "47.293|-2.509|FRA|le croisic",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/339820-2026",
         "html": "https://ted.europa.eu/it/notice/339820-2026/html",
@@ -102753,12 +102753,12 @@
       "countryName": "Polonia",
       "city": "Suwałki",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 54.0990636,
+        "lng": 22.9279363,
+        "source": "city"
       },
       "locationLabel": "Suwałki, Polonia",
-      "mapKey": "51.919|19.145|POL|suwałki",
+      "mapKey": "54.099|22.928|POL|suwałki",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/339816-2026",
         "html": "https://ted.europa.eu/it/notice/339816-2026/html",
@@ -103001,12 +103001,12 @@
       "countryName": "Germania",
       "city": "Schleswig",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 54.51851,
+        "lng": 9.5653284,
+        "source": "city"
       },
       "locationLabel": "Schleswig, Germania",
-      "mapKey": "51.166|10.451|DEU|schleswig",
+      "mapKey": "54.519|9.565|DEU|schleswig",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/339808-2026",
         "html": "https://ted.europa.eu/it/notice/339808-2026/html",
@@ -103032,12 +103032,12 @@
       "countryName": "Germania",
       "city": "Bad Soden-Salmünster",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 50.2801792,
+        "lng": 9.3704249,
+        "source": "city"
       },
       "locationLabel": "Bad Soden-Salmünster, Germania",
-      "mapKey": "51.166|10.451|DEU|bad soden-salmünster",
+      "mapKey": "50.280|9.370|DEU|bad soden-salmünster",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/339807-2026",
         "html": "https://ted.europa.eu/it/notice/339807-2026/html",
@@ -104473,12 +104473,12 @@
     }
   ],
   "totalMatches": 3370,
-  "updatedAt": "2026-05-19T05:14:02.486Z",
+  "updatedAt": "2026-05-20T05:15:42.152Z",
   "meta": {
     "geocodedFreshCount": 8,
     "queryDate": "2026-05-19",
     "schemaVersion": 3,
-    "syncMode": "snapshot",
+    "syncMode": "complete",
     "totalPages": 17
   }
 }

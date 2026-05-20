@@ -2278,5 +2278,85 @@
     "lat": 51.1798706,
     "lng": 7.1943544,
     "source": "city"
+  },
+  "bad soden-salmünster|DEU": {
+    "lat": 50.2801792,
+    "lng": 9.3704249,
+    "source": "city"
+  },
+  "schleswig|DEU": {
+    "lat": 54.51851,
+    "lng": 9.5653284,
+    "source": "city"
+  },
+  "suwałki|POL": {
+    "lat": 54.0990636,
+    "lng": 22.9279363,
+    "source": "city"
+  },
+  "dingolfing|DEU": {
+    "lat": 48.6300801,
+    "lng": 12.4977434,
+    "source": "city"
+  },
+  "le croisic|FRA": {
+    "lat": 47.2933971,
+    "lng": -2.5094404,
+    "source": "city"
+  },
+  "osnabrück|DEU": {
+    "lat": 52.2719595,
+    "lng": 8.047635,
+    "source": "city"
+  },
+  "weißenfels|DEU": {
+    "lat": 51.1999793,
+    "lng": 11.9667857,
+    "source": "city"
+  },
+  "krosno|POL": {
+    "lat": 49.6938045,
+    "lng": 21.7651458,
+    "source": "city"
+  },
+  "mönchengladbach|DEU": {
+    "lat": 51.1947131,
+    "lng": 6.4353792,
+    "source": "city"
+  },
+  "freguesia de benavente|PRT": {
+    "lat": 38.958439,
+    "lng": -8.8103963,
+    "source": "city"
+  },
+  "κέρκυρα|GRC": {
+    "lat": 39.591337,
+    "lng": 19.8596189,
+    "source": "city"
+  },
+  "markt indersdorf|DEU": {
+    "lat": 48.3613754,
+    "lng": 11.3743191,
+    "source": "city"
+  },
+  "wageningen|NLD": {
+    "lat": 51.9663016,
+    "lng": 5.6662814,
+    "source": "city"
+  },
+  "grävenwiesbach|DEU": {
+    "lat": 50.3803748,
+    "lng": 8.4535305,
+    "source": "city"
+  },
+  "stadt neubrandenburg|DEU": {
+    "lat": 53.5574458,
+    "lng": 13.2602781,
+    "source": "city"
+  },
+  "steinbach im taunus|DEU": {
+    "lat": 50.1644119,
+    "lng": 8.5754383,
+    "source": "city"
   }
 }
