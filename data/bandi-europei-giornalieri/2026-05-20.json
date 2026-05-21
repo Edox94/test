@@ -112,12 +112,12 @@
       "countryName": "Polonia",
       "city": "Gniezno",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 52.5359736,
+        "lng": 17.595889,
+        "source": "city"
       },
       "locationLabel": "Gniezno, Polonia",
-      "mapKey": "51.919|19.145|POL|gniezno",
+      "mapKey": "52.536|17.596|POL|gniezno",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/346706-2026",
         "html": "https://ted.europa.eu/it/notice/346706-2026/html",
@@ -48565,12 +48565,12 @@
       "countryName": "Slovacchia",
       "city": "Trenčín",
       "coordinates": {
-        "lat": 48.669,
-        "lng": 19.699,
-        "source": "country"
+        "lat": 48.8922719,
+        "lng": 18.0387465,
+        "source": "city"
       },
       "locationLabel": "Trenčín, Slovacchia",
-      "mapKey": "48.669|19.699|SVK|trenčín",
+      "mapKey": "48.892|18.039|SVK|trenčín",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/345143-2026",
         "html": "https://ted.europa.eu/it/notice/345143-2026/html",
@@ -55069,7 +55069,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "supplies",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "LTU",
       "countryName": "Lituania",
@@ -90657,7 +90657,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "works",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "CHE",
       "countryName": "Svizzera",
@@ -90936,7 +90936,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "services",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "ROU",
       "countryName": "Romania",
@@ -91593,12 +91593,12 @@
       "countryName": "Polonia",
       "city": "Gniezno",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 52.5359736,
+        "lng": 17.595889,
+        "source": "city"
       },
       "locationLabel": "Gniezno, Polonia",
-      "mapKey": "51.919|19.145|POL|gniezno",
+      "mapKey": "52.536|17.596|POL|gniezno",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/343755-2026",
         "html": "https://ted.europa.eu/it/notice/343755-2026/html",
@@ -109294,12 +109294,12 @@
       "countryName": "Slovacchia",
       "city": "Bratislava - mestská časť Karlova Ves",
       "coordinates": {
-        "lat": 48.669,
-        "lng": 19.699,
-        "source": "country"
+        "lat": 48.1592404,
+        "lng": 17.0526768,
+        "source": "city"
       },
       "locationLabel": "Bratislava - mestská časť Karlova Ves, Slovacchia",
-      "mapKey": "48.669|19.699|SVK|bratislava - mestská časť karlova ves",
+      "mapKey": "48.159|17.053|SVK|bratislava - mestská časť karlova ves",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/343184-2026",
         "html": "https://ted.europa.eu/it/notice/343184-2026/html",
@@ -109356,12 +109356,12 @@
       "countryName": "Polonia",
       "city": "Biała Podlaska",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 52.0338399,
+        "lng": 23.1193948,
+        "source": "city"
       },
       "locationLabel": "Biała Podlaska, Polonia",
-      "mapKey": "51.919|19.145|POL|biała podlaska",
+      "mapKey": "52.034|23.119|POL|biała podlaska",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/343182-2026",
         "html": "https://ted.europa.eu/it/notice/343182-2026/html",
@@ -109697,12 +109697,12 @@
       "countryName": "Polonia",
       "city": "Gniezno",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 52.5359736,
+        "lng": 17.595889,
+        "source": "city"
       },
       "locationLabel": "Gniezno, Polonia",
-      "mapKey": "51.919|19.145|POL|gniezno",
+      "mapKey": "52.536|17.596|POL|gniezno",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/343171-2026",
         "html": "https://ted.europa.eu/it/notice/343171-2026/html",
@@ -109821,12 +109821,12 @@
       "countryName": "Slovacchia",
       "city": "Trenčín",
       "coordinates": {
-        "lat": 48.669,
-        "lng": 19.699,
-        "source": "country"
+        "lat": 48.8922719,
+        "lng": 18.0387465,
+        "source": "city"
       },
       "locationLabel": "Trenčín, Slovacchia",
-      "mapKey": "48.669|19.699|SVK|trenčín",
+      "mapKey": "48.892|18.039|SVK|trenčín",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/343167-2026",
         "html": "https://ted.europa.eu/it/notice/343167-2026/html",
@@ -109883,12 +109883,12 @@
       "countryName": "Polonia",
       "city": "Sieradz",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 51.5942475,
+        "lng": 18.7378774,
+        "source": "city"
       },
       "locationLabel": "Sieradz, Polonia",
-      "mapKey": "51.919|19.145|POL|sieradz",
+      "mapKey": "51.594|18.738|POL|sieradz",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/343165-2026",
         "html": "https://ted.europa.eu/it/notice/343165-2026/html",
@@ -109976,12 +109976,12 @@
       "countryName": "Italia",
       "city": "GENOVA (GE)",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 44.4086429,
+        "lng": 8.9318502,
+        "source": "city"
       },
       "locationLabel": "GENOVA (GE), Italia",
-      "mapKey": "41.872|12.567|ITA|genova (ge)",
+      "mapKey": "44.409|8.932|ITA|genova (ge)",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/343162-2026",
         "html": "https://ted.europa.eu/it/notice/343162-2026/html",
@@ -110100,12 +110100,12 @@
       "countryName": "Lettonia",
       "city": "Daugavpils",
       "coordinates": {
-        "lat": 56.8796,
-        "lng": 24.6032,
-        "source": "country"
+        "lat": 55.8712267,
+        "lng": 26.5159337,
+        "source": "city"
       },
       "locationLabel": "Daugavpils, Lettonia",
-      "mapKey": "56.880|24.603|LVA|daugavpils",
+      "mapKey": "55.871|26.516|LVA|daugavpils",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/343158-2026",
         "html": "https://ted.europa.eu/it/notice/343158-2026/html",
@@ -110131,12 +110131,12 @@
       "countryName": "Francia",
       "city": "Dunkerque",
       "coordinates": {
-        "lat": 46.2276,
-        "lng": 2.2137,
-        "source": "country"
+        "lat": 51.0347708,
+        "lng": 2.3772525,
+        "source": "city"
       },
       "locationLabel": "Dunkerque, Francia",
-      "mapKey": "46.228|2.214|FRA|dunkerque",
+      "mapKey": "51.035|2.377|FRA|dunkerque",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/343157-2026",
         "html": "https://ted.europa.eu/it/notice/343157-2026/html",
@@ -110952,12 +110952,12 @@
     }
   ],
   "totalMatches": 3579,
-  "updatedAt": "2026-05-20T05:16:17.876Z",
+  "updatedAt": "2026-05-21T05:19:30.114Z",
   "meta": {
     "geocodedFreshCount": 8,
     "queryDate": "2026-05-20",
     "schemaVersion": 3,
-    "syncMode": "snapshot",
+    "syncMode": "complete",
     "totalPages": 18
   }
 }

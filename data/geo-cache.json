@@ -2358,5 +2358,85 @@
     "lat": 50.1644119,
     "lng": 8.5754383,
     "source": "city"
+  },
+  "dunkerque|FRA": {
+    "lat": 51.0347708,
+    "lng": 2.3772525,
+    "source": "city"
+  },
+  "daugavpils|LVA": {
+    "lat": 55.8712267,
+    "lng": 26.5159337,
+    "source": "city"
+  },
+  "sieradz|POL": {
+    "lat": 51.5942475,
+    "lng": 18.7378774,
+    "source": "city"
+  },
+  "trenčín|SVK": {
+    "lat": 48.8922719,
+    "lng": 18.0387465,
+    "source": "city"
+  },
+  "genova (ge)|ITA": {
+    "lat": 44.4086429,
+    "lng": 8.9318502,
+    "source": "city"
+  },
+  "biała podlaska|POL": {
+    "lat": 52.0338399,
+    "lng": 23.1193948,
+    "source": "city"
+  },
+  "gniezno|POL": {
+    "lat": 52.5359736,
+    "lng": 17.595889,
+    "source": "city"
+  },
+  "bratislava - mestská časť karlova ves|SVK": {
+    "lat": 48.1592404,
+    "lng": 17.0526768,
+    "source": "city"
+  },
+  "zabrze|POL": {
+    "lat": 50.3086154,
+    "lng": 18.7863749,
+    "source": "city"
+  },
+  "εδεσσα|GRC": {
+    "lat": 40.8008523,
+    "lng": 22.0503508,
+    "source": "city"
+  },
+  "prešov|SVK": {
+    "lat": 49.0000074,
+    "lng": 21.2392122,
+    "source": "city"
+  },
+  "barletta (bt)|ITA": {
+    "lat": 41.317959,
+    "lng": 16.2965684,
+    "source": "city"
+  },
+  "wentorf bei hamburg|DEU": {
+    "lat": 53.5,
+    "lng": 10.25,
+    "source": "city"
+  },
+  "werdau|DEU": {
+    "lat": 50.7361377,
+    "lng": 12.3763847,
+    "source": "city"
+  },
+  "bern|CHE": {
+    "lat": 46.9484742,
+    "lng": 7.4521749,
+    "source": "city"
+  },
+  "laurenzana|ITA": {
+    "lat": 40.460514,
+    "lng": 15.970973,
+    "source": "city"
   }
 }
