@@ -2438,5 +2438,85 @@
     "lat": 40.460514,
     "lng": 15.970973,
     "source": "city"
+  },
+  "bolzano / bozen|ITA": {
+    "lat": 46.6559455,
+    "lng": 11.2302129,
+    "source": "city"
+  },
+  "choroszcz|POL": {
+    "lat": 53.143925,
+    "lng": 22.9884588,
+    "source": "city"
+  },
+  "mulhouse|FRA": {
+    "lat": 47.7467233,
+    "lng": 7.3389937,
+    "source": "city"
+  },
+  "miasto łódź|POL": {
+    "lat": 52.1081993,
+    "lng": 19.9458107,
+    "source": "city"
+  },
+  "marseille 04|FRA": {
+    "lat": 43.3069826,
+    "lng": 5.4011304,
+    "source": "city"
+  },
+  "desio|ITA": {
+    "lat": 45.6183103,
+    "lng": 9.2081245,
+    "source": "city"
+  },
+  "cefalu|ITA": {
+    "lat": 38.034957,
+    "lng": 14.0244562,
+    "source": "city"
+  },
+  "magliano vetere|ITA": {
+    "lat": 40.347007,
+    "lng": 15.236658,
+    "source": "city"
+  },
+  "maintal|DEU": {
+    "lat": 50.1438711,
+    "lng": 8.8371266,
+    "source": "city"
+  },
+  "hallstadt|DEU": {
+    "lat": 49.928801,
+    "lng": 10.8754637,
+    "source": "city"
+  },
+  "la roque d'anthéron|FRA": {
+    "lat": 43.7150961,
+    "lng": 5.3122208,
+    "source": "city"
+  },
+  "regensburg|DEU": {
+    "lat": 49.0195333,
+    "lng": 12.0974869,
+    "source": "city"
+  },
+  "villeurbanne|FRA": {
+    "lat": 45.7660581,
+    "lng": 4.8796267,
+    "source": "city"
+  },
+  "pułtusk|POL": {
+    "lat": 52.7051109,
+    "lng": 21.0840274,
+    "source": "city"
+  },
+  "tomaszów mazowiecki|POL": {
+    "lat": 51.5316918,
+    "lng": 20.0084195,
+    "source": "city"
+  },
+  "pergine valsugana|ITA": {
+    "lat": 46.0605291,
+    "lng": 11.2406747,
+    "source": "city"
   }
 }

@@ -3113,7 +3113,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "supplies",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "POL",
       "countryName": "Polonia",
@@ -5996,7 +5996,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "works",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "DEU",
       "countryName": "Germania",
@@ -6188,12 +6188,12 @@
       "countryName": "Polonia",
       "city": "Miasto Łódź",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 52.1081993,
+        "lng": 19.9458107,
+        "source": "city"
       },
       "locationLabel": "Miasto Łódź, Polonia",
-      "mapKey": "51.919|19.145|POL|miasto łódź",
+      "mapKey": "52.108|19.946|POL|miasto łódź",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/350020-2026",
         "html": "https://ted.europa.eu/it/notice/350020-2026/html",
@@ -18278,12 +18278,12 @@
       "countryName": "Italia",
       "city": "cefalu",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 38.034957,
+        "lng": 14.0244562,
+        "source": "city"
       },
       "locationLabel": "cefalu, Italia",
-      "mapKey": "41.872|12.567|ITA|cefalu",
+      "mapKey": "38.035|14.024|ITA|cefalu",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/349630-2026",
         "html": "https://ted.europa.eu/it/notice/349630-2026/html",
@@ -19270,12 +19270,12 @@
       "countryName": "Francia",
       "city": "Mulhouse",
       "coordinates": {
-        "lat": 46.2276,
-        "lng": 2.2137,
-        "source": "country"
+        "lat": 47.7467233,
+        "lng": 7.3389937,
+        "source": "city"
       },
       "locationLabel": "Mulhouse, Francia",
-      "mapKey": "46.228|2.214|FRA|mulhouse",
+      "mapKey": "47.747|7.339|FRA|mulhouse",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/349598-2026",
         "html": "https://ted.europa.eu/it/notice/349598-2026/html",
@@ -19797,12 +19797,12 @@
       "countryName": "Polonia",
       "city": "Choroszcz",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 53.143925,
+        "lng": 22.9884588,
+        "source": "city"
       },
       "locationLabel": "Choroszcz, Polonia",
-      "mapKey": "51.919|19.145|POL|choroszcz",
+      "mapKey": "53.144|22.988|POL|choroszcz",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/349581-2026",
         "html": "https://ted.europa.eu/it/notice/349581-2026/html",
@@ -24912,12 +24912,12 @@
       "countryName": "Italia",
       "city": "cefalu",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 38.034957,
+        "lng": 14.0244562,
+        "source": "city"
       },
       "locationLabel": "cefalu, Italia",
-      "mapKey": "41.872|12.567|ITA|cefalu",
+      "mapKey": "38.035|14.024|ITA|cefalu",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/349416-2026",
         "html": "https://ted.europa.eu/it/notice/349416-2026/html",
@@ -33902,12 +33902,12 @@
       "countryName": "Italia",
       "city": "cefalu",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 38.034957,
+        "lng": 14.0244562,
+        "source": "city"
       },
       "locationLabel": "cefalu, Italia",
-      "mapKey": "41.872|12.567|ITA|cefalu",
+      "mapKey": "38.035|14.024|ITA|cefalu",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/349126-2026",
         "html": "https://ted.europa.eu/it/notice/349126-2026/html",
@@ -34646,12 +34646,12 @@
       "countryName": "Italia",
       "city": "cefalu",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 38.034957,
+        "lng": 14.0244562,
+        "source": "city"
       },
       "locationLabel": "cefalu, Italia",
-      "mapKey": "41.872|12.567|ITA|cefalu",
+      "mapKey": "38.035|14.024|ITA|cefalu",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/349102-2026",
         "html": "https://ted.europa.eu/it/notice/349102-2026/html",
@@ -35266,12 +35266,12 @@
       "countryName": "Italia",
       "city": "cefalu",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 38.034957,
+        "lng": 14.0244562,
+        "source": "city"
       },
       "locationLabel": "cefalu, Italia",
-      "mapKey": "41.872|12.567|ITA|cefalu",
+      "mapKey": "38.035|14.024|ITA|cefalu",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/349082-2026",
         "html": "https://ted.europa.eu/it/notice/349082-2026/html",
@@ -36568,12 +36568,12 @@
       "countryName": "Italia",
       "city": "cefalu",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 38.034957,
+        "lng": 14.0244562,
+        "source": "city"
       },
       "locationLabel": "cefalu, Italia",
-      "mapKey": "41.872|12.567|ITA|cefalu",
+      "mapKey": "38.035|14.024|ITA|cefalu",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/349040-2026",
         "html": "https://ted.europa.eu/it/notice/349040-2026/html",
@@ -41280,12 +41280,12 @@
       "countryName": "Italia",
       "city": "cefalu",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 38.034957,
+        "lng": 14.0244562,
+        "source": "city"
       },
       "locationLabel": "cefalu, Italia",
-      "mapKey": "41.872|12.567|ITA|cefalu",
+      "mapKey": "38.035|14.024|ITA|cefalu",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/348888-2026",
         "html": "https://ted.europa.eu/it/notice/348888-2026/html",
@@ -50760,7 +50760,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "works",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "DEU",
       "countryName": "Germania",
@@ -51696,12 +51696,12 @@
       "countryName": "Polonia",
       "city": "Choroszcz",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 53.143925,
+        "lng": 22.9884588,
+        "source": "city"
       },
       "locationLabel": "Choroszcz, Polonia",
-      "mapKey": "51.919|19.145|POL|choroszcz",
+      "mapKey": "53.144|22.988|POL|choroszcz",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/348552-2026",
         "html": "https://ted.europa.eu/it/notice/348552-2026/html",
@@ -56966,12 +56966,12 @@
       "countryName": "Italia",
       "city": "cefalu",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 38.034957,
+        "lng": 14.0244562,
+        "source": "city"
       },
       "locationLabel": "cefalu, Italia",
-      "mapKey": "41.872|12.567|ITA|cefalu",
+      "mapKey": "38.035|14.024|ITA|cefalu",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/348382-2026",
         "html": "https://ted.europa.eu/it/notice/348382-2026/html",
@@ -57927,12 +57927,12 @@
       "countryName": "Polonia",
       "city": "Choroszcz",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 53.143925,
+        "lng": 22.9884588,
+        "source": "city"
       },
       "locationLabel": "Choroszcz, Polonia",
-      "mapKey": "51.919|19.145|POL|choroszcz",
+      "mapKey": "53.144|22.988|POL|choroszcz",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/348351-2026",
         "html": "https://ted.europa.eu/it/notice/348351-2026/html",
@@ -60872,12 +60872,12 @@
       "countryName": "Italia",
       "city": "cefalu",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 38.034957,
+        "lng": 14.0244562,
+        "source": "city"
       },
       "locationLabel": "cefalu, Italia",
-      "mapKey": "41.872|12.567|ITA|cefalu",
+      "mapKey": "38.035|14.024|ITA|cefalu",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/348256-2026",
         "html": "https://ted.europa.eu/it/notice/348256-2026/html",
@@ -64896,7 +64896,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "services",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "FRA",
       "countryName": "Francia",
@@ -69118,12 +69118,12 @@
       "countryName": "Polonia",
       "city": "Choroszcz",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 53.143925,
+        "lng": 22.9884588,
+        "source": "city"
       },
       "locationLabel": "Choroszcz, Polonia",
-      "mapKey": "51.919|19.145|POL|choroszcz",
+      "mapKey": "53.144|22.988|POL|choroszcz",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/347990-2026",
         "html": "https://ted.europa.eu/it/notice/347990-2026/html",
@@ -70327,12 +70327,12 @@
       "countryName": "Polonia",
       "city": "Miasto Łódź",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 52.1081993,
+        "lng": 19.9458107,
+        "source": "city"
       },
       "locationLabel": "Miasto Łódź, Polonia",
-      "mapKey": "51.919|19.145|POL|miasto łódź",
+      "mapKey": "52.108|19.946|POL|miasto łódź",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/347951-2026",
         "html": "https://ted.europa.eu/it/notice/347951-2026/html",
@@ -77519,12 +77519,12 @@
       "countryName": "Italia",
       "city": "cefalu",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 38.034957,
+        "lng": 14.0244562,
+        "source": "city"
       },
       "locationLabel": "cefalu, Italia",
-      "mapKey": "41.872|12.567|ITA|cefalu",
+      "mapKey": "38.035|14.024|ITA|cefalu",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/347719-2026",
         "html": "https://ted.europa.eu/it/notice/347719-2026/html",
@@ -78511,12 +78511,12 @@
       "countryName": "Italia",
       "city": "cefalu",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 38.034957,
+        "lng": 14.0244562,
+        "source": "city"
       },
       "locationLabel": "cefalu, Italia",
-      "mapKey": "41.872|12.567|ITA|cefalu",
+      "mapKey": "38.035|14.024|ITA|cefalu",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/347687-2026",
         "html": "https://ted.europa.eu/it/notice/347687-2026/html",
@@ -81425,12 +81425,12 @@
       "countryName": "Italia",
       "city": "cefalu",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 38.034957,
+        "lng": 14.0244562,
+        "source": "city"
       },
       "locationLabel": "cefalu, Italia",
-      "mapKey": "41.872|12.567|ITA|cefalu",
+      "mapKey": "38.035|14.024|ITA|cefalu",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/347593-2026",
         "html": "https://ted.europa.eu/it/notice/347593-2026/html",
@@ -81642,12 +81642,12 @@
       "countryName": "Polonia",
       "city": "Choroszcz",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 53.143925,
+        "lng": 22.9884588,
+        "source": "city"
       },
       "locationLabel": "Choroszcz, Polonia",
-      "mapKey": "51.919|19.145|POL|choroszcz",
+      "mapKey": "53.144|22.988|POL|choroszcz",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/347586-2026",
         "html": "https://ted.europa.eu/it/notice/347586-2026/html",
@@ -82789,12 +82789,12 @@
       "countryName": "Italia",
       "city": "cefalu",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 38.034957,
+        "lng": 14.0244562,
+        "source": "city"
       },
       "locationLabel": "cefalu, Italia",
-      "mapKey": "41.872|12.567|ITA|cefalu",
+      "mapKey": "38.035|14.024|ITA|cefalu",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/347549-2026",
         "html": "https://ted.europa.eu/it/notice/347549-2026/html",
@@ -86751,7 +86751,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "works",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "SVN",
       "countryName": "Slovenia",
@@ -87594,12 +87594,12 @@
       "countryName": "Italia",
       "city": "cefalu",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 38.034957,
+        "lng": 14.0244562,
+        "source": "city"
       },
       "locationLabel": "cefalu, Italia",
-      "mapKey": "41.872|12.567|ITA|cefalu",
+      "mapKey": "38.035|14.024|ITA|cefalu",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/347394-2026",
         "html": "https://ted.europa.eu/it/notice/347394-2026/html",
@@ -88611,7 +88611,7 @@
       "procedureType": "restricted",
       "noticeType": "cn-standard",
       "contractNature": "services",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Domande",
       "countryCode": "CHE",
       "countryName": "Svizzera",
@@ -94600,12 +94600,12 @@
       "countryName": "Polonia",
       "city": "Choroszcz",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 53.143925,
+        "lng": 22.9884588,
+        "source": "city"
       },
       "locationLabel": "Choroszcz, Polonia",
-      "mapKey": "51.919|19.145|POL|choroszcz",
+      "mapKey": "53.144|22.988|POL|choroszcz",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/347168-2026",
         "html": "https://ted.europa.eu/it/notice/347168-2026/html",
@@ -97173,12 +97173,12 @@
       "countryName": "Italia",
       "city": "cefalu",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 38.034957,
+        "lng": 14.0244562,
+        "source": "city"
       },
       "locationLabel": "cefalu, Italia",
-      "mapKey": "41.872|12.567|ITA|cefalu",
+      "mapKey": "38.035|14.024|ITA|cefalu",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/347085-2026",
         "html": "https://ted.europa.eu/it/notice/347085-2026/html",
@@ -97731,12 +97731,12 @@
       "countryName": "Italia",
       "city": "cefalu",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 38.034957,
+        "lng": 14.0244562,
+        "source": "city"
       },
       "locationLabel": "cefalu, Italia",
-      "mapKey": "41.872|12.567|ITA|cefalu",
+      "mapKey": "38.035|14.024|ITA|cefalu",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/347067-2026",
         "html": "https://ted.europa.eu/it/notice/347067-2026/html",
@@ -99250,12 +99250,12 @@
       "countryName": "Italia",
       "city": "cefalu",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 38.034957,
+        "lng": 14.0244562,
+        "source": "city"
       },
       "locationLabel": "cefalu, Italia",
-      "mapKey": "41.872|12.567|ITA|cefalu",
+      "mapKey": "38.035|14.024|ITA|cefalu",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/347018-2026",
         "html": "https://ted.europa.eu/it/notice/347018-2026/html",
@@ -99374,12 +99374,12 @@
       "countryName": "Polonia",
       "city": "Choroszcz",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 53.143925,
+        "lng": 22.9884588,
+        "source": "city"
       },
       "locationLabel": "Choroszcz, Polonia",
-      "mapKey": "51.919|19.145|POL|choroszcz",
+      "mapKey": "53.144|22.988|POL|choroszcz",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/347014-2026",
         "html": "https://ted.europa.eu/it/notice/347014-2026/html",
@@ -102629,12 +102629,12 @@
       "countryName": "Polonia",
       "city": "Choroszcz",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 53.143925,
+        "lng": 22.9884588,
+        "source": "city"
       },
       "locationLabel": "Choroszcz, Polonia",
-      "mapKey": "51.919|19.145|POL|choroszcz",
+      "mapKey": "53.144|22.988|POL|choroszcz",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/346909-2026",
         "html": "https://ted.europa.eu/it/notice/346909-2026/html",
@@ -104086,12 +104086,12 @@
       "countryName": "Polonia",
       "city": "Choroszcz",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 53.143925,
+        "lng": 22.9884588,
+        "source": "city"
       },
       "locationLabel": "Choroszcz, Polonia",
-      "mapKey": "51.919|19.145|POL|choroszcz",
+      "mapKey": "53.144|22.988|POL|choroszcz",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/346862-2026",
         "html": "https://ted.europa.eu/it/notice/346862-2026/html",
@@ -104117,12 +104117,12 @@
       "countryName": "Italia",
       "city": "Cefalu",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 38.034957,
+        "lng": 14.0244562,
+        "source": "city"
       },
       "locationLabel": "Cefalu, Italia",
-      "mapKey": "41.872|12.567|ITA|cefalu",
+      "mapKey": "38.035|14.024|ITA|cefalu",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/346861-2026",
         "html": "https://ted.europa.eu/it/notice/346861-2026/html",
@@ -104458,12 +104458,12 @@
       "countryName": "Italia",
       "city": "cefalu",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 38.034957,
+        "lng": 14.0244562,
+        "source": "city"
       },
       "locationLabel": "cefalu, Italia",
-      "mapKey": "41.872|12.567|ITA|cefalu",
+      "mapKey": "38.035|14.024|ITA|cefalu",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/346850-2026",
         "html": "https://ted.europa.eu/it/notice/346850-2026/html",
@@ -107124,12 +107124,12 @@
       "countryName": "Italia",
       "city": "Magliano Vetere",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 40.347007,
+        "lng": 15.236658,
+        "source": "city"
       },
       "locationLabel": "Magliano Vetere, Italia",
-      "mapKey": "41.872|12.567|ITA|magliano vetere",
+      "mapKey": "40.347|15.237|ITA|magliano vetere",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/346764-2026",
         "html": "https://ted.europa.eu/it/notice/346764-2026/html",
@@ -107341,12 +107341,12 @@
       "countryName": "Italia",
       "city": "cefalu",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 38.034957,
+        "lng": 14.0244562,
+        "source": "city"
       },
       "locationLabel": "cefalu, Italia",
-      "mapKey": "41.872|12.567|ITA|cefalu",
+      "mapKey": "38.035|14.024|ITA|cefalu",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/346757-2026",
         "html": "https://ted.europa.eu/it/notice/346757-2026/html",
@@ -107620,12 +107620,12 @@
       "countryName": "Italia",
       "city": "Desio",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 45.6183103,
+        "lng": 9.2081245,
+        "source": "city"
       },
       "locationLabel": "Desio, Italia",
-      "mapKey": "41.872|12.567|ITA|desio",
+      "mapKey": "45.618|9.208|ITA|desio",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/346748-2026",
         "html": "https://ted.europa.eu/it/notice/346748-2026/html",
@@ -107806,12 +107806,12 @@
       "countryName": "Francia",
       "city": "Marseille 04",
       "coordinates": {
-        "lat": 46.2276,
-        "lng": 2.2137,
-        "source": "country"
+        "lat": 43.3069826,
+        "lng": 5.4011304,
+        "source": "city"
       },
       "locationLabel": "Marseille 04, Francia",
-      "mapKey": "46.228|2.214|FRA|marseille 04",
+      "mapKey": "43.307|5.401|FRA|marseille 04",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/346742-2026",
         "html": "https://ted.europa.eu/it/notice/346742-2026/html",
@@ -107837,12 +107837,12 @@
       "countryName": "Polonia",
       "city": "Miasto Łódź",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 52.1081993,
+        "lng": 19.9458107,
+        "source": "city"
       },
       "locationLabel": "Miasto Łódź, Polonia",
-      "mapKey": "51.919|19.145|POL|miasto łódź",
+      "mapKey": "52.108|19.946|POL|miasto łódź",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/346741-2026",
         "html": "https://ted.europa.eu/it/notice/346741-2026/html",
@@ -107961,12 +107961,12 @@
       "countryName": "Francia",
       "city": "Mulhouse",
       "coordinates": {
-        "lat": 46.2276,
-        "lng": 2.2137,
-        "source": "country"
+        "lat": 47.7467233,
+        "lng": 7.3389937,
+        "source": "city"
       },
       "locationLabel": "Mulhouse, Francia",
-      "mapKey": "46.228|2.214|FRA|mulhouse",
+      "mapKey": "47.747|7.339|FRA|mulhouse",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/346737-2026",
         "html": "https://ted.europa.eu/it/notice/346737-2026/html",
@@ -107992,12 +107992,12 @@
       "countryName": "Polonia",
       "city": "Choroszcz",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 53.143925,
+        "lng": 22.9884588,
+        "source": "city"
       },
       "locationLabel": "Choroszcz, Polonia",
-      "mapKey": "51.919|19.145|POL|choroszcz",
+      "mapKey": "53.144|22.988|POL|choroszcz",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/346736-2026",
         "html": "https://ted.europa.eu/it/notice/346736-2026/html",
@@ -108054,12 +108054,12 @@
       "countryName": "Italia",
       "city": "Bolzano / Bozen",
       "coordinates": {
-        "lat": 41.8719,
-        "lng": 12.5674,
-        "source": "country"
+        "lat": 46.6559455,
+        "lng": 11.2302129,
+        "source": "city"
       },
       "locationLabel": "Bolzano / Bozen, Italia",
-      "mapKey": "41.872|12.567|ITA|bolzano / bozen",
+      "mapKey": "46.656|11.230|ITA|bolzano / bozen",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/346734-2026",
         "html": "https://ted.europa.eu/it/notice/346734-2026/html",
@@ -108813,12 +108813,12 @@
     }
   ],
   "totalMatches": 3510,
-  "updatedAt": "2026-05-21T05:20:04.019Z",
+  "updatedAt": "2026-05-22T05:13:22.215Z",
   "meta": {
     "geocodedFreshCount": 8,
     "queryDate": "2026-05-21",
     "schemaVersion": 3,
-    "syncMode": "snapshot",
+    "syncMode": "complete",
     "totalPages": 18
   }
 }
