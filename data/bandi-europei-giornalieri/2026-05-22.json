@@ -515,12 +515,12 @@
       "countryName": "Svizzera",
       "city": "Ittigen",
       "coordinates": {
-        "lat": 46.8182,
-        "lng": 8.2275,
-        "source": "country"
+        "lat": 46.9790726,
+        "lng": 7.4815213,
+        "source": "city"
       },
       "locationLabel": "Ittigen, Svizzera",
-      "mapKey": "46.818|8.227|CHE|ittigen",
+      "mapKey": "46.979|7.482|CHE|ittigen",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/353714-2026",
         "html": "https://ted.europa.eu/it/notice/353714-2026/html",
@@ -19921,12 +19921,12 @@
       "countryName": "Svizzera",
       "city": "Ittigen",
       "coordinates": {
-        "lat": 46.8182,
-        "lng": 8.2275,
-        "source": "country"
+        "lat": 46.9790726,
+        "lng": 7.4815213,
+        "source": "city"
       },
       "locationLabel": "Ittigen, Svizzera",
-      "mapKey": "46.818|8.227|CHE|ittigen",
+      "mapKey": "46.979|7.482|CHE|ittigen",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/353088-2026",
         "html": "https://ted.europa.eu/it/notice/353088-2026/html",
@@ -21372,7 +21372,7 @@
       "procedureType": "open",
       "noticeType": "cn-standard",
       "contractNature": "supplies",
-      "status": "In corso",
+      "status": "Scaduto",
       "deadlineKind": "Offerte",
       "countryCode": "LTU",
       "countryName": "Lituania",
@@ -58981,12 +58981,12 @@
       "countryName": "Germania",
       "city": "Oranienbaum-Wörlitz",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 51.8243086,
+        "lng": 12.4136942,
+        "source": "city"
       },
       "locationLabel": "Oranienbaum-Wörlitz, Germania",
-      "mapKey": "51.166|10.451|DEU|oranienbaum-wörlitz",
+      "mapKey": "51.824|12.414|DEU|oranienbaum-wörlitz",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/351828-2026",
         "html": "https://ted.europa.eu/it/notice/351828-2026/html",
@@ -91717,12 +91717,12 @@
       "countryName": "Germania",
       "city": "Oranienbaum-Wörlitz",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 51.8243086,
+        "lng": 12.4136942,
+        "source": "city"
       },
       "locationLabel": "Oranienbaum-Wörlitz, Germania",
-      "mapKey": "51.166|10.451|DEU|oranienbaum-wörlitz",
+      "mapKey": "51.824|12.414|DEU|oranienbaum-wörlitz",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/350772-2026",
         "html": "https://ted.europa.eu/it/notice/350772-2026/html",
@@ -106380,12 +106380,12 @@
       "countryName": "Francia",
       "city": "MONT-SAINT-AIGNAN",
       "coordinates": {
-        "lat": 46.2276,
-        "lng": 2.2137,
-        "source": "country"
+        "lat": 49.4679,
+        "lng": 1.0813,
+        "source": "city"
       },
       "locationLabel": "MONT-SAINT-AIGNAN, Francia",
-      "mapKey": "46.228|2.214|FRA|mont-saint-aignan",
+      "mapKey": "49.468|1.081|FRA|mont-saint-aignan",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/350299-2026",
         "html": "https://ted.europa.eu/it/notice/350299-2026/html",
@@ -106504,12 +106504,12 @@
       "countryName": "Polonia",
       "city": "Trzebnica",
       "coordinates": {
-        "lat": 51.9194,
-        "lng": 19.1451,
-        "source": "country"
+        "lat": 51.3096424,
+        "lng": 17.062596,
+        "source": "city"
       },
       "locationLabel": "Trzebnica, Polonia",
-      "mapKey": "51.919|19.145|POL|trzebnica",
+      "mapKey": "51.310|17.063|POL|trzebnica",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/350295-2026",
         "html": "https://ted.europa.eu/it/notice/350295-2026/html",
@@ -106752,12 +106752,12 @@
       "countryName": "Irlanda",
       "city": "Ballinakill",
       "coordinates": {
-        "lat": 53.4129,
-        "lng": -8.2439,
-        "source": "country"
+        "lat": 52.873889,
+        "lng": -7.308056,
+        "source": "city"
       },
       "locationLabel": "Ballinakill, Irlanda",
-      "mapKey": "53.413|-8.244|IRL|ballinakill",
+      "mapKey": "52.874|-7.308|IRL|ballinakill",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/350287-2026",
         "html": "https://ted.europa.eu/it/notice/350287-2026/html",
@@ -106783,12 +106783,12 @@
       "countryName": "Svizzera",
       "city": "Ittigen",
       "coordinates": {
-        "lat": 46.8182,
-        "lng": 8.2275,
-        "source": "country"
+        "lat": 46.9790726,
+        "lng": 7.4815213,
+        "source": "city"
       },
       "locationLabel": "Ittigen, Svizzera",
-      "mapKey": "46.818|8.227|CHE|ittigen",
+      "mapKey": "46.979|7.482|CHE|ittigen",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/350286-2026",
         "html": "https://ted.europa.eu/it/notice/350286-2026/html",
@@ -107062,12 +107062,12 @@
       "countryName": "Germania",
       "city": "Oranienbaum-Wörlitz",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 51.8243086,
+        "lng": 12.4136942,
+        "source": "city"
       },
       "locationLabel": "Oranienbaum-Wörlitz, Germania",
-      "mapKey": "51.166|10.451|DEU|oranienbaum-wörlitz",
+      "mapKey": "51.824|12.414|DEU|oranienbaum-wörlitz",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/350277-2026",
         "html": "https://ted.europa.eu/it/notice/350277-2026/html",
@@ -107310,12 +107310,12 @@
       "countryName": "Portogallo",
       "city": "Fátima",
       "coordinates": {
-        "lat": 39.3999,
-        "lng": -8.2245,
-        "source": "country"
+        "lat": 39.6255498,
+        "lng": -8.6659081,
+        "source": "city"
       },
       "locationLabel": "Fátima, Portogallo",
-      "mapKey": "39.400|-8.225|PRT|fátima",
+      "mapKey": "39.626|-8.666|PRT|fátima",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/350269-2026",
         "html": "https://ted.europa.eu/it/notice/350269-2026/html",
@@ -107837,12 +107837,12 @@
       "countryName": "Germania",
       "city": "Stadt Herne",
       "coordinates": {
-        "lat": 51.1657,
-        "lng": 10.4515,
-        "source": "country"
+        "lat": 51.5482433,
+        "lng": 7.2395856,
+        "source": "city"
       },
       "locationLabel": "Stadt Herne, Germania",
-      "mapKey": "51.166|10.451|DEU|stadt herne",
+      "mapKey": "51.548|7.240|DEU|stadt herne",
       "links": {
         "detail": "https://ted.europa.eu/it/notice/-/detail/350252-2026",
         "html": "https://ted.europa.eu/it/notice/350252-2026/html",
@@ -108844,12 +108844,12 @@
     }
   ],
   "totalMatches": 3511,
-  "updatedAt": "2026-05-22T05:13:54.386Z",
+  "updatedAt": "2026-05-23T04:52:16.768Z",
   "meta": {
     "geocodedFreshCount": 8,
     "queryDate": "2026-05-22",
     "schemaVersion": 3,
-    "syncMode": "snapshot",
+    "syncMode": "complete",
     "totalPages": 18
   }
 }

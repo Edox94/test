@@ -2518,5 +2518,45 @@
     "lat": 46.0605291,
     "lng": 11.2406747,
     "source": "city"
+  },
+  "fátima|PRT": {
+    "lat": 39.6255498,
+    "lng": -8.6659081,
+    "source": "city"
+  },
+  "stadt herne|DEU": {
+    "lat": 51.5482433,
+    "lng": 7.2395856,
+    "source": "city"
+  },
+  "glauchau ortsteil niederlungwitz|DEU": {
+    "lat": 51.1657,
+    "lng": 10.4515,
+    "source": "country"
+  },
+  "oranienbaum-wörlitz|DEU": {
+    "lat": 51.8243086,
+    "lng": 12.4136942,
+    "source": "city"
+  },
+  "ittigen|CHE": {
+    "lat": 46.9790726,
+    "lng": 7.4815213,
+    "source": "city"
+  },
+  "ballinakill|IRL": {
+    "lat": 52.873889,
+    "lng": -7.308056,
+    "source": "city"
+  },
+  "mont-saint-aignan|FRA": {
+    "lat": 49.4679,
+    "lng": 1.0813,
+    "source": "city"
+  },
+  "trzebnica|POL": {
+    "lat": 51.3096424,
+    "lng": 17.062596,
+    "source": "city"
   }
 }
