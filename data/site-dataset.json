@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T07:07:45.846Z",
+  "generatedAt": "2026-10-18T05:50:18.083Z",
   "notices": [
     {
       "id": "273041-2026",
@@ -2692963,8 +2692963,20 @@
     }
   ],
   "archive": {
-    "dateCount": 75,
+    "dateCount": 77,
     "days": [
+      {
+        "dateKey": "2026-10-18",
+        "noticeCount": 0,
+        "syncMode": "snapshot",
+        "updatedAt": "2026-10-18T05:50:16.838Z"
+      },
+      {
+        "dateKey": "2026-10-17",
+        "noticeCount": 0,
+        "syncMode": "complete",
+        "updatedAt": "2026-10-18T05:50:14.878Z"
+      },
       {
         "dateKey": "2026-10-11",
         "noticeCount": 0,
@@ -2693417,7 +2693429,7 @@
       }
     ],
     "fromDate": "2026-04-21",
-    "toDate": "2026-10-11"
+    "toDate": "2026-10-18"
   },
   "summary": {
     "archiveCount": 84155,
@@ -2693534,18 +2693546,18 @@
     "currentSyncDate": null,
     "inProgress": false,
     "lastError": null,
-    "lastRunAt": "2026-10-11T07:07:44.516Z",
+    "lastRunAt": "2026-10-18T05:50:16.839Z",
     "lastRunSummary": {
-      "dateKey": "2026-10-11",
+      "dateKey": "2026-10-18",
       "noticeCount": 0,
       "reason": "scheduled-snapshot",
       "syncMode": "snapshot",
       "totalMatches": 0
     },
-    "lastSuccessfulSyncDate": "2026-10-11",
+    "lastSuccessfulSyncDate": "2026-10-18",
     "nextRunAt": null,
     "oldestStoredDate": "2026-04-21",
-    "newestStoredDate": "2026-10-11",
+    "newestStoredDate": "2026-10-18",
     "archiveDirectory": "/home/runner/work/test/test/data/bandi-europei-giornalieri",
     "archiveDirectoryLabel": "data/bandi-europei-giornalieri",
     "storedNoticeCount": 84155,
@@ -2693554,8 +2693566,24 @@
       "minute": 15,
       "timezone": "ora locale del server"
     },
-    "storedDateCount": 75,
+    "storedDateCount": 77,
     "storedDates": [
+      {
+        "dateKey": "2026-10-18",
+        "noticeCount": 0,
+        "schemaVersion": 3,
+        "syncMode": "snapshot",
+        "totalMatches": 0,
+        "updatedAt": "2026-10-18T05:50:16.838Z"
+      },
+      {
+        "dateKey": "2026-10-17",
+        "noticeCount": 0,
+        "schemaVersion": 3,
+        "syncMode": "complete",
+        "totalMatches": 0,
+        "updatedAt": "2026-10-18T05:50:14.878Z"
+      },
       {
         "dateKey": "2026-10-11",
         "noticeCount": 0,
@@ -2694157,8 +2694185,8 @@
         "updatedAt": "2026-04-24T17:07:41.203Z"
       }
     ],
-    "serverTime": "2026-10-11T07:07:45.846Z",
-    "lastStaticBuildAt": "2026-10-11T07:07:45.863Z",
+    "serverTime": "2026-10-18T05:50:18.083Z",
+    "lastStaticBuildAt": "2026-10-18T05:50:18.099Z",
     "mode": "github-pages",
     "syncFailed": false
   }
