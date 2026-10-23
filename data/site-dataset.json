@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T05:50:18.083Z",
+  "generatedAt": "2026-10-23T06:00:37.464Z",
   "notices": [
     {
       "id": "273041-2026",
@@ -2693545,7 +2693545,10 @@
   "sync": {
     "currentSyncDate": null,
     "inProgress": false,
-    "lastError": null,
+    "lastError": {
+      "at": "2026-10-23T06:00:35.771Z",
+      "message": "The operation was aborted due to timeout"
+    },
     "lastRunAt": "2026-10-18T05:50:16.839Z",
     "lastRunSummary": {
       "dateKey": "2026-10-18",
@@ -2694185,9 +2694188,9 @@
         "updatedAt": "2026-04-24T17:07:41.203Z"
       }
     ],
-    "serverTime": "2026-10-18T05:50:18.083Z",
-    "lastStaticBuildAt": "2026-10-18T05:50:18.099Z",
+    "serverTime": "2026-10-23T06:00:37.464Z",
+    "lastStaticBuildAt": "2026-10-23T06:00:37.478Z",
     "mode": "github-pages",
-    "syncFailed": false
+    "syncFailed": true
   }
 }
